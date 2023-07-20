@@ -6,3 +6,5 @@ import torch
 print(torch.cuda.list_gpu_processes())
 gc.collect()
 torch.cuda.empty_cache()
+
+#test pull

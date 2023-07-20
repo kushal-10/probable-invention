@@ -64,7 +64,7 @@ def salesforce_lavis_gen():
     device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
     raw_image = Image.open(image_list[0]).convert("RGB")
     model, vis_processors, _ = load_model_and_preprocess(
-        name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device
+        name="blip2", model_type="coco", is_eval=True, device=device
     )
     image = vis_processors["eval"](raw_image).unsqueeze(0).to(device)
     caption_list = model.generate({"image": image}, use_nucleus_sampling=True, num_captions=1)

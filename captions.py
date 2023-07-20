@@ -31,7 +31,7 @@ def generate_captions():
     image = Image.open(image_list[0])
     inputs = processor(image, return_tensors="pt").to(device, torch.float16)
 
-    generated_ids = model.generate(**inputs, max_new_tokens=20)
+    generated_ids = model.generate(**inputs, max_new_tokens=20, num_captions=4)
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
     print(generated_text)
      

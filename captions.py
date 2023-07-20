@@ -29,7 +29,7 @@ def generate_captions():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
 
-    image = Image.open(image_list[0])
+    image = Image.open(image_list[3])
     inputs = processor(image, return_tensors="pt").to(device, torch.float16)
     # inputs = processor(image, return_tensors="pt").to(device)
 

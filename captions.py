@@ -5,6 +5,14 @@ import torch
 import pandas as pd
 import csv
 
+
+# FOR LAVIS
+import pandas as pd
+import torch
+from PIL import Image
+import requests
+from lavis.models import load_model_and_preprocess
+
 def generate_captions():
 
     """
@@ -39,5 +47,29 @@ def generate_captions():
     print(generated_text)
      
     
-generate_captions()
+# generate_captions()
 
+def salesforce_lavis_gen():
+
+    image_list = []
+    df = pd.read_csv('the_hundread.csv')
+    for i in range(len(df)):
+        num = df['image_id'].loc[i]
+        # Pad with zeros to get exact location of image : example 000000214547.jpg
+        pad = '%012d' % num
+        im = 'images/' + str(pad) + '.jpg'
+        # append to a list of images to be used for blip
+        image_list.append(im)
+
+    device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
+    raw_image = Image.open(image_list[0]).convert("RGB")
+    model, vis_processors, _ = load_model_and_preprocess(
+        name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device
+    )
+    image = vis_processors["eval"](raw_image).unsqueeze(0).to(device)
+    caption_list = model.generate({"image": image}, use_nucleus_sampling=True, num_captions=5)
+    print(caption_list)
+    
+    return None
+
+salesforce_lavis_gen()

@@ -48,7 +48,7 @@ def generate_captions():
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
     # print(generated_text)
 
-    prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + " Explain Why?"
+    prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + ". Question: Why? Answer:"
     print(prompt2)
     inputs2 = processor(image, text=prompt2, return_tensors="pt").to(device, torch.float16)
     # inputs = processor(image, return_tensors="pt").to(device)

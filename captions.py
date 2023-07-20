@@ -30,14 +30,14 @@ def generate_captions():
         # append to a list of images to be used for blip
         image_list.append(im)
 
-    
+    print("List generated")
 #     # GET CORRESPONDING CAPTIONS
     processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
     model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
     # model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")  
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
-
+    print(device)
     image = Image.open(image_list[0])
 
     prompt = "Task: Describe the image in 3 sentences. Answer:"

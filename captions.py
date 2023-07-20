@@ -32,8 +32,6 @@ def generate_captions():
 
     
 #     # GET CORRESPONDING CAPTIONS
-    prompt = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:"
-
     processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
     model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
     # model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")  
@@ -41,13 +39,24 @@ def generate_captions():
     model.to(device)
 
     image = Image.open(image_list[3])
+
+    prompt = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:"
     inputs = processor(image, text=prompt, return_tensors="pt").to(device, torch.float16)
     # inputs = processor(image, return_tensors="pt").to(device)
-
     generated_ids = model.generate(**inputs, max_new_tokens=200)
-    print(len(generated_ids))
+    # print(len(generated_ids))
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
-    print(generated_text)
+    # print(generated_text)
+
+    prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + " Explain Why?"
+    print(prompt2)
+    inputs2 = processor(image, text=prompt2, return_tensors="pt").to(device, torch.float16)
+    # inputs = processor(image, return_tensors="pt").to(device)
+    generated_ids2 = model.generate(**inputs2, max_new_tokens=200)
+    # print(len(generated_ids))
+    generated_text2 = processor.batch_decode(generated_ids2, skip_special_tokens=True)[0].strip()
+    print(generated_text2)
+     
      
     
 generate_captions()

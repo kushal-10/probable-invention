@@ -38,24 +38,24 @@ def generate_captions():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
 
-    image = Image.open(image_list[3])
+    image = Image.open(image_list[0])
 
-    prompt = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:"
+    prompt = "Task: Describe the image in 3 sentences. Answer:"
     inputs = processor(image, text=prompt, return_tensors="pt").to(device, torch.float16)
     # inputs = processor(image, return_tensors="pt").to(device)
     generated_ids = model.generate(**inputs, max_new_tokens=200)
     # print(len(generated_ids))
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
-    # print(generated_text)
+    print(generated_text)
 
-    prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + ". Question: Why? Answer:"
-    print(prompt2)
-    inputs2 = processor(image, text=prompt2, return_tensors="pt").to(device, torch.float16)
-    # inputs = processor(image, return_tensors="pt").to(device)
-    generated_ids2 = model.generate(**inputs2, max_new_tokens=200)
-    # print(len(generated_ids))
-    generated_text2 = processor.batch_decode(generated_ids2, skip_special_tokens=True)[0].strip()
-    print(generated_text2)
+    # prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + ". Question: Why? Answer:"
+    # print(prompt2)
+    # inputs2 = processor(image, text=prompt2, return_tensors="pt").to(device, torch.float16)
+    # # inputs = processor(image, return_tensors="pt").to(device)
+    # generated_ids2 = model.generate(**inputs2, max_new_tokens=200)
+    # # print(len(generated_ids))
+    # generated_text2 = processor.batch_decode(generated_ids2, skip_special_tokens=True)[0].strip()
+    # print(generated_text2)
      
      
     

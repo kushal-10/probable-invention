@@ -32,7 +32,7 @@ def generate_captions():
 
     
 #     # GET CORRESPONDING CAPTIONS
-    prompt = "Give a detailed caption for the input image. The image describes"
+    prompt = "Give a detailed description"
     processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
     model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
     # model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")  

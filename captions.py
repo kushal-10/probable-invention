@@ -67,7 +67,7 @@ def salesforce_lavis_gen():
         name="blip2", model_type="coco", is_eval=True, device=device
     )
     image = vis_processors["eval"](raw_image).unsqueeze(0).to(device)
-    caption_list = model.generate({"image": image}, use_nucleus_sampling=True, num_captions=1)
+    caption_list = model.generate({"image": image}, use_nucleus_sampling=True)
     print(caption_list)
     
     return None

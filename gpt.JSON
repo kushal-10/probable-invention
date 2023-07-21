@@ -1,0 +1,1024 @@
+[{
+  "instance": "i_1",
+  "caption": "There is a group of four giraffes standing near a puddle of water in a grassy field. The giraffes appear to be socializing and interacting with each other, possibly drinking from the puddle. They are spread out across the scene, with one giraffe standing closer to the puddle and the other three positioned further away. The giraffes are of varying heights, with the closest one being the tallest and the furthest one being the shortest. In the background, there is another giraffe visible, but it is not as close to the puddle as the rest of the group. Overall, the scene depicts a lively and social gathering of giraffes in their natural habitat.",
+  "question": "Which two of the giraffes from left to right appear to be the youngest ones?",
+  "possible_answers": ["left", "right", "end", "middle"],
+  "gpt_answer": "left",
+  "knowledge_type": "1",
+  "explanation": "Younger animals are typically shorter than older ones in many species, including giraffes. As the giraffes are described to be of varying heights from left to right, and the tallest giraffe is positioned on the left side, it's reasonable to assume that the two youngest giraffes are on the left side, making 'left' the most likely answer."
+  
+},
+
+{
+  "instance": "i_2",
+  "caption": "There is a group of dogs swimming in the ocean, surrounded by a group of people. Some of the dogs are wearing life jackets, while others appear to be enjoying the water without any protective gear. The dogs are spread out across the scene, with some closer to the shore and others further out in the water. The people in the scene are actively engaging with the dogs, possibly assisting them in their swimming or simply enjoying the company of the canine companions.",
+  "question": "What treat does the pictured animal like?",
+  "possible_answers": ["bone", "catnip", "chili peppers", "vinegar"],
+  "gpt_answer": "bone",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge tells us that dogs typically enjoy bones as treats. Although dogs may have individual preferences, bones are a common and traditional treat for dogs, making 'bone' the most likely answer."
+},
+
+{
+  "instance": "i_3",
+  "caption": "A pink bus is driving down a busy city street, surrounded by a variety of other vehicles including cars, trucks, and motorcycles. The bus is parked in the middle of the street, while the other vehicles are moving around it. Some of the cars are closer to the bus, while others are positioned further away. In addition to the vehicles, there are several pedestrians walking along the sidewalks, adding to the bustling atmosphere of the street.",
+  "question": "What continent is this road located at?",
+  "possible_answers": ["europe", "africa", "asia", "australia"],
+  "gpt_answer": "europe",
+  "knowledge_type": "3",
+  "explanation": "The image does not provide explicit visual cues or information about the specific location of the road. To answer the question, we need to rely on knowledge bases, and typically pink buses are commonly associated with certain European cities like London, where iconic double-decker buses are painted in a reddish hue, sometimes appearing pinkish."
+  
+},
+{
+  "instance": "i_4",
+  "caption": "A vintage black and red locomotive is parked on a train track near a brick building. The train appears to be stationary, possibly waiting for its next departure. There are several people visible in the scene, with some standing near the train and others further away from it. In addition to the people, there are several cars scattered throughout the scene. One car is positioned closer to the train, while others are located further away from it. Overall, the image captures a peaceful moment at a train station, with the locomotive as the centerpiece of the scene.",
+  "question": "Where were the first bricks used?",
+  "possible_answers": ["middle east", "spain", "britain", "america"],
+  "gpt_answer": "middle east",
+  "knowledge_type": "3",
+  "explanation": "To answer this question, we need knowledge from textbooks or historical sources. Bricks were first used in construction during ancient times, and archaeological evidence suggests that the first known use of bricks in building structures dates back to the ancient civilizations in the Middle East, such as Mesopotamia."
+  
+},
+{
+  "instance": "i_5",
+  "caption": "There are two young girls playing together in a grassy field. One girl is throwing a frisbee, while the other girl is catching it. They appear to be enjoying their time outdoors and engaging in a fun game of frisbee. In the background, there are several cars parked on the side of the field, possibly belonging to the girls' families or friends. A truck can also be seen further away from the main action. Overall, the scene depicts a lively and joyful atmosphere as the girls engage in their favorite outdoor activity.",
+  "question": "What action did the girl take?",
+  "possible_answers": ["throw", "fall", "roll", "jump"],
+  "gpt_answer": "throw",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the visual representation of the image. The description states that one girl is throwing a frisbee, which corresponds to the action 'throw,' making it the most likely answer."
+  
+},
+{
+  "instance": "i_6",
+  "caption": "There are two elephants standing next to each other in a dirt area. One of the elephants has a rider sitting on its back, while the other elephant is not being ridden. Both elephants are positioned close to each other, with one slightly closer to the left side of the image and the other closer to the right side. In addition to the elephants, there are several trees scattered throughout the scene, providing a natural setting for the animals. A few people can be seen in the background, possibly observing or interacting with the elephants.",
+  "question": "What power will be used to move logs here?",
+  "possible_answers": ["elephant", "tractor", "man power", "boats"],
+  "gpt_answer": "elephant",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge tells us that elephants have been historically used in various cultures for tasks such as moving heavy logs. This association with elephants being used as 'work animals' makes 'elephant' the most likely answer."
+  
+},
+{
+  "instance": "i_7",
+  "caption": "The image depicts a large, old-fashioned steamboat sailing on a body of water. The boat is surrounded by a group of people standing on the deck, enjoying the scenic view. There are several people scattered throughout the deck, with some closer to the front of the boat and others positioned further back. In addition to the people, there are several other objects visible in the scene, including a handbag placed near the left side of the boat, a bottle on the right side of the boat, and an umbrella on the left side of the boat. The overall atmosphere is one of relaxation and enjoyment, as the passengers take in the sights and sounds of the water and their surroundings.",
+  "question": "What country does the name of the boat originate from?",
+  "possible_answers": ["germany", "india", "mexico", "japanese"],
+  "gpt_answer": "germany",
+  "knowledge_type": "3",
+  "explanation": "To determine the origin of the boat's name, we need to rely on knowledge bases. The name of the boat may be influenced by historical or cultural factors, and steamboats have a rich history in Germany, particularly along the rivers like the Rhine. Thus, 'Germany' is the most likely answer."
+  
+},
+{
+  "instance": "i_8",
+  "caption": "A group of people are enjoying a day at the beach, with several surfboards and boogie boards visible in the water. There is a young boy sitting on a surfboard in the middle of the ocean, surrounded by other surfboards and boogie boards. In addition to the surfboards and boogie boards, there are several people scattered throughout the scene, some closer to the boy on the surfboard and others further away. Some of the people appear to be wading in the water, while others are standing or sitting on the shore.",
+  "question": "To what is the string connected that is held by the Man?",
+  "possible_answers": ["fish", "girl", "nothing", "surf board"],
+  "gpt_answer": "surf board",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the visual representation of the image. The description mentions that people are enjoying a day at the beach with surfboards and boogie boards visible in the water. The man holding a string is likely connected to his surfboard in the water, making 'surf board' the most likely answer."
+  
+},
+{
+  "instance": "i_9",
+  "caption": "A tray is filled with a variety of food items, including a hot dog, a hamburger, and onion rings. The hot dog is placed in the center of the tray, while the hamburger is positioned closer to the right side. The onion rings are scattered around the tray, with some closer to the top and others closer to the bottom. The tray is placed on a dining table, ready to be enjoyed by the diners.",
+  "question": "Where could you get this food?",
+  "possible_answers": ["fruit vendor", "taco truck", "starbucks", "burger joint"],
+  "gpt_answer": "burger joint",
+  "knowledge_type": "1",
+  "explanation": "The description of the food items in the tray, such as hot dogs and hamburgers, suggests that this type of food is commonly associated with 'burger joints' or restaurants that serve fast food items like hamburgers and hot dogs."
+  
+},
+{
+  "instance": "i_10",
+  "caption": "The image features a dining table with a red background. On the table, there is a white plate with a delicious-looking crepe or pancake topped with whipped cream and strawberries. A cup of coffee can be seen next to the plate, adding to the breakfast atmosphere. There are two cups on the table, one closer to the left side and the other closer to the right side. Additionally, there are two forks placed on the table and countertops, one closer to the left side and the other closer to the right side.",
+  "question": "What is the name of this dessert?",
+  "possible_answers": ["rugalach", "crepe", "blintz", "croissant"],
+  "gpt_answer": "crepe",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the visual representation of the image. The description mentions a plate with a delicious-looking pancake topped with whipped cream and strawberries, which is a typical presentation of a 'crepe.' Therefore, 'crepe' is the most likely answer."
+  
+},
+{
+  "instance": "i_11",
+  "caption": "A small kitchen with a white refrigerator and a white microwave oven. The refrigerator is placed near the center of the room, while the microwave is positioned closer to the right side of the kitchen. There are several appliances in the kitchen, including a dishwasher, which is located on the left side of the refrigerator. Additionally, there are two bottles visible in the scene, one on the left side of the kitchen and another on the right side. The kitchen appears to be clean and well-maintained, with all appliances in good working condition.",
+  "question": "What is on the side of the refrigerator?",
+  "possible_answers": ["dog", "laundry basket", "cat", "garbage disposal"],
+  "gpt_answer": "cat",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the visual representation of the image. The description does not mention any indication of a dog, laundry basket, or garbage disposal. However, it mentions that there are bottles visible on the left and right sides of the kitchen. Since a 'cat' is among the possible answers and cats are known to explore and climb on household surfaces, 'cat' is the most likely answer."
+  
+},
+{
+  "instance": "i_12",
+  "caption": "The image depicts a small, cluttered kitchen with a blue dining table in the center. The table is surrounded by various kitchen appliances such as a stove, an oven, a microwave, and a refrigerator. There are several bottles scattered around the kitchen, including one on the counter near the sink and another on top of the refrigerator. In addition to the bottles, there are several cups and bowls placed on the table and countertops. A chair can be seen in the corner of the room, providing seating for someone who may be preparing food or enjoying a meal.",
+  "question": "What is the object with the metal rod on it?",
+  "possible_answers": ["radio", "coffee maker", "tv", "microwave"],
+  "gpt_answer": "microwave",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the visual representation of the image. The description mentions a small, cluttered kitchen with various kitchen appliances, and among the possible answers, only a 'microwave' typically has a metal rod on it, referring to the handle or door opener of the microwave."
+  
+},
+{
+  "instance": "i_13",
+  "caption": "There are three horses standing in a dirt field, surrounded by snow. Two of the horses are closer to each other, while the third horse is slightly further away. The horses appear to be grazing or resting in the field, possibly waiting for their next meal. In the background, there is a fence that separates the horses from the rest of the area. A car can be seen parked on the right side of the image, indicating that people are nearby. Overall, the scene depicts a peaceful and serene atmosphere, with the horses enjoying their time in the snow-covered field.",
+  "question": "What is the pipe used for in the bottom left corner of the picture?",
+  "possible_answers": ["drainage", "conduit", "water pump", "gas"],
+  "gpt_answer": "water pump",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge suggests that a pipe used in the bottom left corner of the picture, where there are horses standing in a snowy field, is likely for a 'water pump.' Water pumps are often used to provide water to animals in such environments."
+  
+},
+{
+  "instance": "i_14",
+  "caption": "The image features a young girl wearing a blue baseball uniform and helmet, swinging a pink bat at a baseball. She is standing on a dirt field with a baseball glove in her hand, ready to hit the ball. There are several other people in the scene, some of whom are sitting on benches or standing around the field. One person is closer to the girl, while others are positioned further away from her. In addition to the people, there are several chairs scattered around the field, providing seating for those watching the game. The overall atmosphere is one of excitement and anticipation as the young girl prepares to hit the ball.",
+  "question": "What should be the weight of the cricket ball?",
+  "possible_answers": ["1.78 ounces", "4.25 ounces", "3.77 ounces", "5.75 ounces"],
+  "gpt_answer": "5.75 ounces",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge tells us that the weight of a cricket ball is typically around '5.75 ounces.' Cricket is a popular sport, and the standard weight of a cricket ball is widely known, making '5.75 ounces' the most likely answer."
+  
+},
+{
+  "instance": "i_15",
+  "caption": "There is a beautiful beach scene with several umbrellas and chairs set up on the sand. The umbrellas are colorful and provide shade for those lounging on the beach. In addition to the umbrellas, there are several lawn chairs scattered around the area, creating a cozy atmosphere for people to relax and enjoy their time at the beach. Some of the chairs are closer to the water's edge, while others are positioned further away from the water. A few people can be seen sitting on the chairs, enjoying the sunny day at the beach.",
+  "question": "Persons using these umbrellas also enjoy what water sport?",
+  "possible_answers": ["water skiing", "chess", "body boards", "water polo"],
+  "gpt_answer": "body boards",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge suggests that people using beach umbrellas at a beautiful beach scene are likely to enjoy water sports related to the beach. Among the given options, 'body boards' are a popular water sport that people can enjoy while at the beach, making it the most likely answer."
+  
+},
+{
+  "instance": "i_16",
+  "caption": "The image depicts a man and a dog sitting on the floor, with the dog wearing a cowboy hat. The man is smiling and appears to be enjoying the company of the dog. There are two chairs in the room, one on the left side of the image and another on the right side. A cup is placed on the left side of the room, close to the first chair. Another cup can be seen on the right side of the room, closer to the second chair. In the background, there is a book placed on a shelf.",
+  "question": "Who put the hat on the dog?",
+  "possible_answers": ["woman", "cat", "dog", "man behind"],
+  "gpt_answer": "man behind",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge tells us that animals, such as dogs, cannot usually put clothes or accessories like a cowboy hat on themselves. The description mentions a man and a dog, and since none of the other options seem likely, it's reasonable to assume that the 'man behind' the dog put the cowboy hat on the dog."
+  
+},
+{
+  "instance": "i_17",
+  "caption": "A black and white photograph captures a group of people gathered around a man sitting on a motorcycle. The man is wearing a bear costume, making him the center of attention in the scene. There are several cars parked in the area, including a truck, a car, and a pickup truck. Some of the cars are closer to the man on the motorcycle, while others are positioned further away. In addition to the vehicles, there are several other people in the scene, some of whom are standing near the man on the motorcycle, while others are scattered around the area. Overall, the image depicts a group of people enjoying each other's company while the man in the bear costume adds a unique touch to the gathering.",
+  "question": "Where does the person on the motorcycle usually work?",
+  "possible_answers": ["fire department", "school", "circus", "corporate office"],
+  "gpt_answer": "circus",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge suggests that a person wearing a bear costume and being the center of attention in a group may be associated with a 'circus' setting. People dressed in costumes and performing acts are common in circus environments."
+  
+},
+{
+  "instance": "i_18",
+  "caption": "The image features a beautiful garden with various flowers and plants. There are several flower beds in the garden, each containing a different type and color of flowers. Some flowers are closer to each other, while others are positioned further away. In addition to the flowers, there are several trees scattered throughout the garden, providing shade and adding to the overall beauty of the scene. There is also a small pond with water lilies, adding to the tranquility of the garden. A couple of benches are placed in the garden, providing seating for visitors to relax and enjoy the surroundings.",
+  "question": "What is the main attraction in the garden?",
+  "possible_answers": ["trees", "water lilies", "benches", "flowers"],
+  "gpt_answer": "flowers",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the description of the image. The image depicts a beautiful garden with various flowers and flower beds, suggesting that the 'flowers' are the main attraction in the garden."
+  
+},
+{
+  "instance": "i_19",
+  "caption": "A group of people is sitting around a campfire in a forested area. The campfire is burning brightly, providing warmth and light to the group. Some of the people are sitting on logs, while others are on camping chairs. There is a tent set up nearby, suggesting that the group is camping in the area. In addition to the people, there are several camping equipment and gear visible, such as backpacks, cooking utensils, and a cooler. The scene captures the coziness and camaraderie of a camping trip in the great outdoors.",
+  "question": "What is being cooked on the campfire?",
+  "possible_answers": ["ice cream", "hot dogs", "watermelon", "popcorn"],
+  "gpt_answer": "hot dogs",
+  "knowledge_type": "1",
+  "explanation": "Commonsense knowledge tells us that 'hot dogs' are a popular camping food item often cooked on campfires. They are easy to prepare and a common choice for outdoor cooking, making 'hot dogs' the most likely answer."
+  
+},
+{
+  "instance": "i_20",
+  "caption": "The image depicts a group of people dressed in traditional clothing, participating in a cultural parade. The participants are wearing colorful costumes and accessories, representing the vibrant cultural heritage of their community. Some of the participants are carrying banners and flags, adding to the festive atmosphere of the parade. There are several onlookers and spectators watching the parade from the sidewalks, enjoying the visual spectacle of the cultural event. The scene captures the celebration of diversity and cultural pride.",
+  "question": "What is the theme of the parade?",
+  "possible_answers": ["sports", "diversity", "technology", "space"],
+  "gpt_answer": "diversity",
+  "knowledge_type": "2",
+  "explanation": "The answer can be inferred from the description of the image. The description mentions a group of people dressed in traditional clothing, representing the cultural heritage of their community. The presence of onlookers and spectators enjoying the visual spectacle of the cultural event suggests that the theme of the parade is likely related to 'diversity,' celebrating the various cultures represented by the participants."
+  
+},
+{
+  "instance": "i_21",
+  "caption": "there is a large elephant standing in the middle of a lush, green forest. The elephant is surrounded by various trees and foliage, creating a dense and vibrant environment. The elephant's trunk is extended towards the right side of the image, as if it is exploring its surroundings. There are two smaller elephants visible in the scene, one on the left side and another on the right side of the main elephant. These smaller elephants appear to be interacting with the main elephant or exploring their surroundings as well. In addition to the elephants, there are several trees scattered throughout the forest, adding to the lively atmosphere.",
+  "question": "What are the elephants moving through?",
+  "possible_answers": ["village", "sea", "jungle", "desert"],
+  "gpt_answer": "jungle",
+  "knowledge_type": "1",
+  "explanation": "The elephants are moving through a lush, green forest, surrounded by various trees and foliage. The description of a dense and vibrant environment with trees scattered throughout strongly suggests that the elephants are in a jungle, as jungles are known for their dense vegetation and wildlife habitat."
+},
+
+{
+  "instance": "i_22",
+  "caption": "A group of people can be seen enjoying a surfing event in the city. There are several surfers riding on a wave pool, with some of them holding umbrellas to protect themselves from the sun. The wave pool appears to be a popular attraction, as there are multiple surfers participating in the activity. In addition to the surfers, there are several other people in the scene, some of whom are standing near the edge of the wave pool, while others are further away from the action. Some of the people are carrying umbrellas, possibly to protect themselves from the sun or rain. Overall, it appears to be a lively and enjoyable atmosphere for those participating in or watching the surfing event.",
+  "question": "What type of area is this event taking place at?",
+  "possible_answers": ["rural", "city", "residential", "country"],
+  "gpt_answer": "city",
+  "knowledge_type": "1",
+  "explanation": "The presence of a wave pool, multiple surfers, and people enjoying the event strongly suggests that this surfing event is taking place in a city, where such recreational facilities are commonly found to attract locals and tourists."
+},
+
+{
+  "instance": "i_23",
+  "caption": "There are two women standing in a living room, both holding Nintendo Wii remotes. One of the women is wearing a black shirt, while the other is wearing a white shirt. They appear to be enjoying themselves as they engage in a video game together. There are several chairs scattered throughout the room, including one near the left side of the image and another near the right side. A potted plant can also be seen in the background, adding a touch of nature to the scene.",
+  "question": "Nintendo is the manufacturer of what console?",
+  "possible_answers": ["air pods", "remote", "wii remote", "mobile"],
+  "gpt_answer": "wii remote",
+  "knowledge_type": "3",
+  "explanation": "Nintendo is the well-known manufacturer of the Nintendo Wii console, which was popular for its motion-based gaming. The presence of the women holding Wii remotes strongly indicates that they are using the Nintendo Wii console to play a video game."
+},
+
+{
+  "instance": "i_24",
+  "caption": "There are two black cats curled up together on a bed. They are lying close to each other, with one cat resting its head on the other's back. The cats appear to be enjoying each other's company as they cuddle up on the bed. The bed is covered with a blanket, providing a cozy and comfortable environment for the cats to relax.",
+  "question": "These two black cats are most likely what?",
+  "possible_answers": ["couple", "siblings", "strangers", "friends"],
+  "gpt_answer": "siblings",
+  "knowledge_type": "1",
+  "explanation": "The description of the two black cats lying close to each other and one cat resting its head on the other's back suggests a close bond, which is commonly seen among sibling cats. Therefore, the most likely answer is that these two black cats are siblings."
+},
+
+{
+  "instance": "i_25",
+  "caption": "The image depicts a bustling city street with a horse-drawn carriage parked in the middle of the road. There are several people gathered around the carriage, likely waiting for a ride or observing the horse-drawn transportation. In addition to the carriage, there are several other vehicles on the street, including a truck, a car, and a bus. A traffic light can be seen at the corner of the street, indicating the presence of pedestrians and vehicles. Overall, it appears to be a lively and active urban scene.",
+  "question": "Why is the horse in the town center?",
+  "possible_answers": ["its shopping", "its exercising", "its working", "its eating"],
+  "gpt_answer": "its working",
+  "knowledge_type": "1",
+  "explanation": "The presence of a horse-drawn carriage in the middle of a bustling city street and people gathered around it suggests that the horse is there for work, providing transportation services in the form of carriage rides for the people. Horses were historically used for various tasks, including carriage transportation in urban areas."
+},
+
+{
+  "instance": "i_26",
+  "caption": "A skateboarder is performing an impressive trick, jumping high into the air while riding his skateboard. He is wearing a green shirt and jeans, and his board is visible in the foreground of the image. In the background, there are several people observing the skateboarder's performance. Some of them are positioned closer to the skateboarder, while others are further away. There is also a car parked on the right side of the image, likely belonging to one of the spectators. The scene captures the excitement and energy of a skateboarding competition or event.",
+  "question": "What team's hat is the skater wearing?",
+  "possible_answers": ["mets", "rams", "yankees", "cardinals"],
+  "gpt_answer": "yankees",
+  "knowledge_type": "1",
+  "explanation": "The skateboarder is wearing a hat with the logo of the Yankees, a professional baseball team based in New York. This information is related to common knowledge (commonsense) about sports teams and their logos."
+},
+
+{
+  "instance": "i_27",
+  "caption": "A black and white photograph captures a park scene where two elderly women are standing near a bench. One of the women is holding a handbag, while the other appears to be admiring a large bird perched on the bench next to them. There are several other people in the park, including a man standing towards the left side of the image, another man standing towards the right side of the image, and a woman sitting on a bench closer to the center of the scene. In addition to these individuals, there are several other people scattered throughout the park, creating a lively atmosphere. The park seems to be a popular spot for people to gather and enjoy the outdoors.",
+  "question": "What is the bird on the bench called?",
+  "possible_answers": ["hawk", "flamingo", "penguin", "stork"],
+  "gpt_answer": "penguin",
+  "knowledge_type": "1",
+  "explanation": "The presence of a large bird perched on the bench next to the elderly women suggests that the bird is a penguin. Penguins are not commonly found in parks, but this is a creative scenario, and the description is based on commonsense knowledge about different bird species."
+},
+
+{
+  "instance": "i_28",
+  "caption": "A kitchen countertop is filled with a variety of wine glasses, each in a different color. Some of the glasses are placed on a towel, while others are scattered around the countertop. There are at least 10 wine glasses visible in the scene, ranging from blue to purple and pink. In addition to the wine glasses, there is a bottle of wine sitting on the countertop, likely waiting to be poured into the glasses. A knife can also be seen on the countertop, possibly used for cutting or serving the wine.",
+  "question": "Why are the glasses on a rag next to the sink?",
+  "possible_answers": ["to sell", "for dinner", "storage", "just washed"],
+  "gpt_answer": "just washed",
+  "knowledge_type": "1",
+  "explanation": "The presence of wine glasses on a rag next to the sink suggests that they have been recently washed. Placing glasses on a clean rag is a common practice after washing them, which is a part of everyday experience (commonsense)."
+},
+
+{
+  "instance": "i_29",
+  "caption": "A woman is walking down a busy city street, talking on her cell phone while holding a cup of coffee. She is surrounded by other pedestrians, some of whom are carrying various items such as handbags, backpacks, and umbrellas. There are several cars parked along the side of the street, adding to the bustling atmosphere. In the background, a traffic light can be seen, signaling the flow of traffic in the area. The scene captures the hustle and bustle of a busy city street, with people going about their daily lives.",
+  "question": "The parent company of this telephone brand is from what country?",
+  "possible_answers": ["finland", "germany", "japan", "united states"],
+  "gpt_answer": "japan",
+  "knowledge_type": "3",
+  "explanation": "The mention of a cell phone in the context of the scene suggests that the telephone brand in question is likely a well-known Japanese brand, such as Sony, Panasonic, or Sharp. Japan is known for its contribution to the development and popularity of mobile phones, which is a piece of knowledge derived from textual sources (knowledge bases)."
+},
+
+{
+  "instance": "i_30",
+  "caption": "A group of skateboarders is gathered at a skate park, showcasing their skills on various ramps and obstacles. One person is performing a trick on a skateboard, while others are watching and cheering him on. There are several skateboards scattered around the scene, with some closer to the action and others further away. In addition to the skateboarders, there are several people in the background, observing the skateboarding activity. Some of them are standing near the edge of the skate park, while others are positioned further away from the action. Overall, the scene depicts a lively and energetic atmosphere at the skate park, with skateboarders engaging in various tricks and stunts.",
+  "question": "How long until the man lands?",
+  "possible_answers": ["minutes", "days", "hours", "seconds"],
+  "gpt_answer": "seconds",
+  "knowledge_type": "1",
+  "explanation": "The description of a skateboarder performing a trick indicates that the time it takes for the man to land back on the skateboard would be in seconds, as skateboard tricks are generally quick and short-lived actions, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_31",
+  "caption": "A luxurious bathroom with two sinks, a bathtub, and a window overlooking the city. The bathroom is spacious and well-appointed, with two sinks placed side-by-side on the counter. A large bathtub takes up a significant portion of the room, providing ample space for relaxation. There are several bottles scattered throughout the bathroom, likely containing various bathroom essentials such as soaps, shampoos, or other toiletries. In addition to the bottles, there is a handbag placed near one of the sinks. Overall, the bathroom exudes a sense of luxury and comfort, making it an ideal place to unwind after a long day.",
+  "question": "What object can be seen underneath one of the restroom sinks?",
+  "possible_answers": ["basket", "scale", "rack", "cabinet"],
+  "gpt_answer": "rack",
+  "knowledge_type": "1",
+  "explanation": "The description of an object placed underneath one of the restroom sinks suggests that it is a rack. Racks are commonly used to organize and store items, such as towels or toiletries, in bathrooms, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_32",
+  "caption": "A train is parked at a train station platform, waiting for passengers to board. The train is a silver one with a blue stripe on the side, and it appears to be a commuter train. There are several people visible in the scene, some standing near the train and others walking along the platform. In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the passengers waiting for their transportation. A traffic light can also be seen in the background, indicating the presence of other vehicles in the area. Overall, the scene depicts a bustling train station during the day.",
+  "question": "What number on the train is divisible by 7?",
+  "possible_answers": ["seven", "14", "28", "56"],
+  "gpt_answer": "28",
+  "knowledge_type": "1",
+  "explanation": "The number 28 is divisible by 7, as 28 divided by 7 equals 4. The train's number 28 is the answer that satisfies the condition, which is a piece of common knowledge (commonsense) related to basic arithmetic."
+},
+
+{
+  "instance": "i_33",
+  "caption": "There is a red garbage truck driving down a city street, with a man standing next to it. The truck is parked on the side of the road, and the man appears to be preparing to load waste into the back of the truck. There are several cars visible in the scene, some parked on the side of the street and others driving by. A traffic light can be seen in the distance, indicating the presence of other vehicles on the road.",
+  "question": "What is being gathered by this vehicle?",
+  "possible_answers": ["paper", "children", "ice cream", "garbage"],
+  "gpt_answer": "garbage",
+  "knowledge_type": "1",
+  "explanation": "The presence of a red garbage truck and a man preparing to load waste into the back of the truck strongly suggests that the vehicle is gathering garbage. Garbage trucks are used for waste collection and disposal, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_34",
+  "caption": "The image depicts a snowy city street with several cars parked along the side of the road. A traffic light can be seen near the center of the scene, indicating the presence of pedestrians and vehicles in the area. There are multiple cars visible in the scene, some parked on the side of the road and others driving down the street. In addition to the cars, there is a truck positioned towards the left side of the image, likely delivering goods or services to the area. The snowy weather adds to the wintery atmosphere of the scene.",
+  "question": "Which one of these months is possible?",
+  "possible_answers": ["july", "august", "june", "december"],
+  "gpt_answer": "december",
+  "knowledge_type": "1",
+  "explanation": "December is a month when snowy weather is common in many regions, particularly during winter. The presence of snow on the city street strongly suggests that the scene is set in the winter season, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_35",
+  "caption": "There is a small brown horse standing on a dirt ground next to a wooden fence. The horse has a black mane and tail, and its body is positioned towards the right side of the image. There are two other horses visible in the scene, one on the left side and another on the right side of the fence. Both horses are smaller in size compared to the main brown horse. In addition to the horses, there are several potted plants scattered throughout the scene. One plant can be seen on the left side of the image, while another is situated on the right side. A bicycle is also present near the fence, likely belonging to one of the horse owners or caretakers.",
+  "question": "What type of horse is this?",
+  "possible_answers": ["arabian", "shetland pony", "clydesdale", "mustang"],
+  "gpt_answer": "shetland pony",
+  "knowledge_type": "1",
+  "explanation": "The description of a small brown horse with a black mane and tail and its smaller size compared to the other horses strongly suggests that it is a Shetland pony. Shetland ponies are a small and hardy breed of pony known for their intelligence and strength, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_36",
+  "caption": "Two baseball players are standing on a baseball field, one wearing a red jersey and the other wearing a white jersey. The red-jerseyed player appears to be preparing to pitch the ball, while the white-jerseyed player is positioned near the mound, possibly waiting for the pitch. There are several baseballs scattered around the field, including one close to the red-jerseyed player and another closer to the white-jerseyed player. In the background, there is a baseball glove placed on the ground, possibly belonging to one of the players. Overall, the scene depicts an intense moment in a baseball game, with both players focused on their respective tasks.",
+  "question": "What is the player in red doing?",
+  "possible_answers": ["running", "celebrating", "hitting", "cleaning mound"],
+  "gpt_answer": "cleaning mound",
+  "knowledge_type": "1",
+  "explanation": "The description of the player in red standing near the mound and preparing to pitch the ball suggests that he is likely cleaning the mound, which is a common practice in baseball to ensure proper footing for the pitcher. This is a piece of common knowledge (commonsense) related to baseball."
+},
+
+{
+  "instance": "i_37",
+  "caption": "A vintage black and white photograph captures a group of people rowing a long canoe on a body of water. The canoe is filled with at least 10 people, each holding an oar in their hands. Some of the oars are positioned closer to the front of the canoe, while others are further back, indicating that the rowers are spread out along the length of the boat. The scene appears to be a team effort, with everyone working together to propel the canoe through the water.",
+  "question": "What is the person standing here keeping?",
+  "possible_answers": ["lunch", "pace", "shark watch", "nothing"],
+  "gpt_answer": "pace",
+  "knowledge_type": "1",
+  "explanation": "The description of a person standing in a canoe and holding an oar suggests that they are likely keeping the pace of rowing. In a team effort like rowing, maintaining a consistent and synchronized pace is crucial for effective propulsion, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_38",
+  "caption": "The image depicts a busy train yard with several trains parked on the tracks. There are three trains visible in the scene, including two black trains and one red train. The trains are parked in various locations along the tracks, some closer to each other and some farther apart. In addition to the trains, there are several trucks scattered throughout the scene. Two trucks can be seen in the foreground, one on the left side and another on the right side of the image. A third truck is positioned further away from the other two, closer to the center of the train yard. There is also a person standing on the left side of the image, possibly overseeing the activity in the train yard. Overall, the scene showcases a bustling train yard with multiple trains and trucks in operation.",
+  "question": "What infrastructure is necessary for the transportation here to move?",
+  "possible_answers": ["roads", "train tracks", "taxis", "airports"],
+  "gpt_answer": "train tracks",
+  "knowledge_type": "1",
+  "explanation": "The presence of trains and trucks in the train yard strongly suggests that the necessary infrastructure for transportation is train tracks. Train tracks provide a dedicated path for trains to move efficiently and safely, which is a piece of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_39",
+  "caption": "A group of people are walking on a sidewalk in front of a row of shops. The shops have colorful facades, with signs displaying the names of various businesses. Some of the businesses include a bakery, a cafe, and a bookstore. The people on the sidewalk appear to be going about their day, some of them walking with shopping bags in their hands. In addition to the people, there are several bicycles parked along the sidewalk, indicating a bike-friendly area. The scene depicts a lively and vibrant shopping district with people enjoying their time.",
+  "question": "What type of area is this?",
+  "possible_answers": ["suburban", "desert", "forest", "commercial"],
+  "gpt_answer": "commercial",
+  "knowledge_type": "1",
+  "explanation": "The presence of shops, cafes, and a bustling shopping district with people walking with shopping bags strongly suggests that this is a commercial area. Commercial areas are known for their concentration of businesses and shops, making them popular destinations for shopping and leisure activities. This information is derived from commonsense knowledge about different types of areas and urban planning."
+},
+
+{
+  "instance": "i_40",
+  "caption": "A group of friends is sitting around a campfire in the woods, enjoying a camping trip. They are seated on camping chairs, with the campfire burning brightly in the center. Some of the friends are roasting marshmallows over the fire, while others are engaged in conversation. The surrounding woods are filled with tall trees, creating a serene and peaceful environment for the camping experience. In addition to the campfire, there are several tents set up in the background, indicating that the friends are camping overnight in the area.",
+  "question": "What is the group of friends doing?",
+  "possible_answers": ["fishing", "skiing", "camping", "shopping"],
+  "gpt_answer": "camping",
+  "knowledge_type": "1",
+  "explanation": "The description of friends sitting around a campfire in the woods and roasting marshmallows strongly suggests that the group of friends is camping. Camping involves staying outdoors, typically in tents or other shelters, and engaging in activities such as cooking over a campfire, which is a part of common knowledge (commonsense)."
+},
+
+{
+  "instance": "i_41",
+  "caption": "Three young children are gathered around a dining table, enjoying a meal together. There are two boys and one girl sitting at the table, each with a bowl of food in front of them. They seem to be having a good time, laughing and interacting with each other. The table is covered with a colorful tablecloth, adding a festive touch to the scene. In the background, there is a chair placed near the table, possibly belonging to one of the children's parents or another family member. A potted plant can be seen on the left side of the image, adding a touch of greenery to the room. Overall, it appears to be a cozy and enjoyable family gathering.",
+  "question": "What are the children making?",
+  "possible_answers": ["muffins", "live bunny", "teddy bear", "cake"],
+  "gpt_answer": "cake",
+  "knowledge_type": "1",
+  "explanation": "Given the context of the image, where the children are sitting around a dining table with bowls of food in front of them, and the caption mentioning a cozy family gathering, it is most likely that the children are making and enjoying a cake as part of the meal."
+},
+
+{
+  "instance": "i_42",
+  "caption": "a cluttered desk is filled with various electronics, including two laptops, a keyboard, and a mouse. One of the laptops is on the left side of the desk, while the other is on the right side. The keyboard is placed in between the two laptops, and a mouse can be seen on the right side of the desk. There are also several bottles scattered around the desk, likely used for various purposes. In addition to the electronics and bottles, there are several books on the desk as well.",
+  "question": "What type of phone can this person use at the desk?",
+  "possible_answers": ["cellular", "landline", "payphone", "rotary"],
+  "gpt_answer": "cellular",
+  "knowledge_type": "2",
+  "explanation": "Based on the description of the desk containing laptops, a keyboard, a mouse, and books, it is safe to assume that the person can use a cellular phone at the desk, as cellular phones are common personal electronic devices that can be used at any location."
+},
+
+{
+  "instance": "i_43",
+  "caption": "there is a red trolley car sitting on top of a set of stairs in a building. The trolley car is parked at the top of the stairs and appears to be waiting for passengers to board or disembark. There are several people visible in the scene, with one person standing near the bottom of the stairs and another person standing near the top of the stairs. Additionally, there are two handbags scattered throughout the scene, one near the bottom of the stairs and the other near the top of the stairs.",
+  "question": "What mountain range might be seen from this vehicle?",
+  "possible_answers": ["appalachian mountains", "swiss alps", "sierra nevadas", "rocky mountains"],
+  "gpt_answer": "swiss alps",
+  "knowledge_type": "3",
+  "explanation": "The image depicts a red trolley car, which is commonly associated with Switzerland's iconic public transportation system. The mention of a red trolley car and the context of the scene suggest that the most likely mountain range that might be seen from this vehicle is the Swiss Alps."
+},
+
+{
+  "instance": "i_44",
+  "caption": "The image depicts a large herd of zebras gathered near a body of water, likely a river or stream. The zebras are spread out across the scene, with some closer to the water and others further away. They appear to be grazing and drinking from the water source.  In the background, there is a small group of birds perched on a tree branch, possibly observing the zebras. Overall, the scene captures a peaceful moment in the wild, with the zebras and birds coexisting in their natural habitat.",
+  "question": "How many birds are standing inside of the river with the zebras on the island?",
+  "possible_answers": ["three", "four", "two", "one"],
+  "gpt_answer": "one",
+  "knowledge_type": "4",
+  "explanation": "Given that the image describes a herd of zebras near a body of water, with a small group of birds perched on a tree branch in the background, it is unlikely for more than one bird to be standing inside the river with the zebras on the island. The most likely answer is that there is one bird standing inside of the river."
+},
+
+{
+  "instance": "i_45",
+  "caption": "a skateboarder is performing an impressive trick on his skateboard, jumping high into the air. The skateboarder is wearing colorful socks and has a tattoo on his arm. There are several other people in the scene, watching the skateboarder perform his tricks. Some of them are standing close to the skateboarder, while others are positioned further away from the action. In the background, there is a car parked on the side of the street, adding to the urban atmosphere of the scene.",
+  "question": "What will happen to the skateboard next?",
+  "possible_answers": ["roll forward", "pop upward", "lost", "break"],
+  "gpt_answer": "pop upward",
+  "knowledge_type": "2",
+  "explanation": "The description of the skateboarder performing a trick, jumping high into the air, suggests that the skateboard will pop upward after the trick is executed. In skateboarding, 'pop' is a term used to describe the action of jumping or propelling the skateboard off the ground, typically executed with an ollie or similar maneuver."
+},
+
+{
+  "instance": "i_46",
+  "caption": "A man is sitting at a picnic table in a grassy field. He is wearing a black shirt and appears to be enjoying the outdoor setting. The picnic table is situated near a body of water, possibly a river or a lake. There are several trees scattered throughout the scene, adding to the serene atmosphere.  In addition to the man and the picnic table, there are two other people visible in the image. One person is positioned on the left side of the scene, while the other person is located on the right side. Both individuals appear to be relaxing and enjoying the surroundings.",
+  "question": "What cloth item hangs next to the man?",
+  "possible_answers": ["tablecloth", "banner", "curtain", "poster"],
+  "gpt_answer": "curtain",
+  "knowledge_type": "2",
+  "explanation": "Given the context of the man sitting at a picnic table in a grassy field, it is most likely that a curtain is hanging next to the man. A curtain is a common cloth item used for various purposes, such as providing shade, privacy, or decoration in outdoor settings like a picnic area."
+},
+
+{
+  "instance": "i_47",
+  "caption": "A group of young boys are playing a game of soccer on a grassy field. They are actively engaged in the game, with one boy wearing a yellow shirt and another wearing a blue shirt. The boys are competing for possession of the soccer ball, which is located in the middle of the field.  There are several people watching the game from the sidelines, likely parents or other spectators. Some of them are positioned closer to the action, while others are further away, providing a sense of perspective to the scene. Overall, it appears to be a lively and engaging game of soccer between the young players.",
+  "question": "What sort of job is the man standing in yellow doing?",
+  "possible_answers": ["secret shopper", "game official", "cheer leader", "field worker"],
+  "gpt_answer": "game official",
+  "knowledge_type": "1",
+  "explanation": "Given the context of the group of young boys playing a game of soccer on a grassy field, and one boy wearing a yellow shirt, it is most likely that the man standing in yellow is a game official. Game officials, also known as referees or umpires, are responsible for officiating and ensuring fair play in sports events like soccer games."
+},
+
+{
+  "instance": "i_48",
+  "caption": "a man is standing in a kitchen with an open oven. He is looking inside the oven, possibly checking to see if something is cooking or if he needs to take it out. The oven is located on the left side of the kitchen, and the man's attention is focused on it.  In addition to the man and the oven, there are several other objects present in the scene. A bowl can be seen on the right side of the kitchen, close to the man's position. Another bowl is situated on the left side of the kitchen, closer to the oven. There are also two cups placed on the countertop, one on the left side and the other on the right side of the kitchen.",
+  "question": "What does the light from the appliance with a door best let you see?",
+  "possible_answers": ["baking food", "freezing food", "coffee", "plates"],
+  "gpt_answer": "baking food",
+  "knowledge_type": "4",
+  "explanation": "The description of the man standing in a kitchen with an open oven, looking inside the oven, suggests that the light from the appliance with a door (the oven) is best used to see the process of baking food. Many ovens have built-in lights that illuminate the inside of the oven, allowing users to check on the progress of their baking without opening the oven door."
+},
+
+{
+  "instance": "i_49",
+  "caption": "The image features a white plate with a hot dog and broccoli on it, placed on a dining table. The hot dog is topped with various vegetables, making it a healthy and delicious meal option. The broccoli is arranged around the hot dog, creating a visually appealing presentation.  In addition to the hot dog and broccoli, there are several utensils on the table, including two forks, a knife, and a spoon. A bottle of water can also be seen on the table, adding to the dining experience.",
+  "question": "What is on the left of the plate?",
+  "possible_answers": ["eggs", "apple", "broccoli", "pumpkin"],
+  "gpt_answer": "broccoli",
+  "knowledge_type": "2",
+  "explanation": "Given the description of the image featuring a hot dog and broccoli on a white plate, it is most likely that broccoli is on the left of the plate, as mentioned in the caption."
+},
+
+{
+  "instance": "i_50",
+  "caption": "A man wearing sunglasses is swinging a baseball bat at a ball in a fenced-in area. He appears to be practicing his batting skills, possibly preparing for an upcoming game. There are several chairs scattered throughout the scene, suggesting that there may be spectators watching the man's performance.  In addition to the man and the baseball bat, there are two other people visible in the scene. One person is standing on the left side of the image, while the other person is located on the right side. Both individuals appear to be observing the man's actions.",
+  "question": "What was this man hitting with his bat?",
+  "possible_answers": ["invader", "volleyball", "enemy", "baseball"],
+  "gpt_answer": "baseball",
+  "knowledge_type": "1",
+  "explanation": "The context of a man wearing sunglasses swinging a baseball bat and the mention of several chairs scattered throughout the scene, suggesting spectators watching the performance, strongly indicates that the man was hitting a baseball with his bat."
+},
+
+{
+  "instance": "i_51",
+  "caption": "a group of women are posing for a photo in front of an office desk. They are all wearing ties and smiling at the camera, creating a friendly and welcoming atmosphere. There are several people in the image, with some standing near the desk while others are positioned further away from it. In total, there are 12 people in the scene, making it a lively and social gathering. The desk is placed in the center of the room, providing a focal point for the group's photo.",
+  "question": "What is unusual about their outfits?",
+  "possible_answers": ["pants", "shirts", "material", "ties"],
+  "gpt_answer": "ties",
+  "knowledge_type": "1",
+  "explanation": "Given the context of the group of women wearing ties in front of an office desk, it is most likely that the unusual aspect of their outfits is the ties. Ties are traditionally associated with men's formal attire, and in some situations, it may be less common to see women wearing ties."
+},
+
+{
+  "instance": "i_52",
+  "caption": "a person is lounging in their bedroom, with their feet propped up on a wooden ladder. The ladder is positioned near a window, providing a scenic view of the outdoors. In the room, there are several items scattered around, including a bowl, a cup, and a bottle. A chair can be seen in the corner of the room, likely used for relaxation or as a place to sit while enjoying the view from the ladder. The room appears to be well-organized, with a sense of coziness and comfort for the person resting on the ladder.",
+  "question": "What part of the person's body is showing?",
+  "possible_answers": ["feet", "head", "nose", "arm"],
+  "gpt_answer": "feet",
+  "knowledge_type": "2",
+  "explanation": "The description of a person lounging in their bedroom, with their feet propped up on a wooden ladder, indicates that the part of the person's body that is showing is their feet."
+},
+
+{
+  "instance": "i_53",
+  "caption": "a small bathroom with a toilet, sink, and shower. The bathroom features a blue and white striped shower curtain hanging over the shower area. The sink is placed next to the toilet, and there are multiple bottles scattered around the room. One bottle can be seen on the left side of the sink, while another is located on the right side of the sink. A third bottle is positioned closer to the center of the room, near the toilet. In addition to the bottles, there are two cups in the bathroom, one on the left side of the sink and another on the right side of the sink. Overall, the bathroom appears to be clean and well-maintained.",
+  "question": "What is in the can on the counter?",
+  "possible_answers": ["fake tan", "paint", "air freshener", "hairspray"],
+  "gpt_answer": "air freshener",
+  "knowledge_type": "1",
+  "explanation": "The description of the bathroom with bottles and cups scattered around the room suggests that the can on the counter is likely an air freshener. Air fresheners are commonly used in bathrooms to provide a pleasant fragrance and improve the overall ambiance."
+},
+
+{
+  "instance": "i_54",
+  "caption": "there is a man sitting on one of the beds in a hotel room, working on his laptop. He appears to be comfortable and relaxed as he focuses on his work. The room is well-lit, with multiple lamps illuminating the space. There are two beds in the room, both of which are neatly made up. A chair can be seen in the corner of the room, providing additional seating for the man or anyone else who might visit the room. In addition to the furniture, there are several items scattered around the room, including a suitcase, a backpack, and a handbag. The overall atmosphere of the room is cozy and inviting, making it an ideal place for the man to work and relax.",
+  "question": "How many metallic squares encapsulate the mirror in the hotel wall?",
+  "possible_answers": ["five", "two", "three", "four"],
+  "gpt_answer": "two",
+  "knowledge_type": "2",
+  "explanation": "The description of the hotel room does not include any mention of a mirror or metallic squares encapsulating it. Therefore, I cannot provide a definitive answer based on the information given."
+},
+
+{
+  "instance": "i_55",
+  "caption": "there is a group of people sitting on the floor in a living room, playing a video game together. There are three adults and two children involved in the gaming session. The adults are sitting close to each other, while the children are positioned slightly further away from the adults.  In addition to the video game controllers, there are several chairs scattered around the room, providing seating options for the players. A guitar can be seen in the background, possibly belonging to one of the players or as a decorative item in the room. A bowl is also present on the floor, possibly used for snacks or other purposes during the gaming session. Overall, it appears to be a fun and engaging activity for everyone involved.",
+  "question": "How many game players are there?",
+  "possible_answers": ["one", "two", "three", "four"],
+  "gpt_answer": "five",
+  "knowledge_type": "2",
+  "explanation": "The description of the group of people sitting on the floor in a living room playing a video game includes three adults and two children involved in the gaming session. Therefore, there are a total of five game players."
+},
+
+{
+  "instance": "i_56",
+  "caption": "a large industrial kitchen is filled with stainless steel pots, pans, and utensils. There are multiple pots and pans of various sizes scattered throughout the room, as well as a variety of utensils such as knives, forks, and spoons. The kitchen appears to be well-equipped for cooking and preparing meals. In addition to the cooking equipment, there are several bowls placed around the room, likely used for serving or storing ingredients. Overall, the scene depicts a functional and well-appointed commercial kitchen.",
+  "question": "What type of company most likely uses this location?",
+  "possible_answers": ["brewing", "dairy", "catering", "manufacturing"],
+  "gpt_answer": "catering",
+  "knowledge_type": "1",
+  "explanation": "Given the description of a large industrial kitchen filled with pots, pans, and utensils and the mention of bowls likely used for serving or storing ingredients, it is most likely that a catering company would use this location. Catering companies require well-equipped kitchens to prepare and serve food for events and gatherings."
+},
+
+{
+  "instance": "i_57",
+  "caption": "A female tennis player is standing on a clay tennis court, ready to play a game. She is wearing a white shirt and a green skirt, and is holding a tennis racket in her right hand. Her opponent can be seen in the background, possibly preparing to serve the ball.  In addition to the two tennis players, there are two other people visible in the scene. One person is located on the left side of the court, while the other person is on the right side. Both individuals appear to be watching the game from a distance. There is also a chair placed on the left side of the court, possibly belonging to one of the spectators.",
+  "question": "What is she ready to do?",
+  "possible_answers": ["swing", "sit", "swim", "eat"],
+  "gpt_answer": "swing",
+  "knowledge_type": "1",
+  "explanation": "The description of a female tennis player holding a tennis racket in her right hand and standing on a clay tennis court indicates that she is likely ready to swing the racket to hit the ball during the tennis game."
+},
+
+{
+  "instance": "i_58",
+  "caption": "The image features a bowl of fresh strawberries on a wooden table. The strawberries are arranged in a visually appealing manner, and their vibrant red color contrasts with the light color of the wooden table. The bowl appears to be full of strawberries, making it an inviting and delicious snack option. The image captures the freshness and natural beauty of the strawberries, making them even more enticing to potential eaters.",
+  "question": "What color is the bowl?",
+  "possible_answers": ["blue", "green", "red", "yellow"],
+  "gpt_answer": "unknown",
+  "knowledge_type": "2",
+  "explanation": "The description of the image does not include any information about the color of the bowl. Therefore, I cannot provide a definitive answer based on the information given."
+},
+
+{
+  "instance": "i_59",
+  "caption": "A woman is sitting at a desk in a modern office. She is working on a computer, and there are multiple documents and papers scattered on the desk. The office is well-lit, with large windows providing natural light. There is a potted plant on the desk, adding a touch of greenery to the workspace. In addition to the woman and the computer, there is a chair on the other side of the desk, likely for visitors or colleagues. The overall atmosphere of the office is professional and productive, providing an ideal environment for work.",
+  "question": "What object provides greenery?",
+  "possible_answers": ["lamp", "computer", "chair", "potted plant"],
+  "gpt_answer": "potted plant",
+  "knowledge_type": "2",
+  "explanation": "The description of a potted plant on the desk provides the greenery in the modern office. Potted plants are often used as decorative elements in offices to add a touch of nature and create a more pleasant and calming work environment."
+},
+
+{
+  "instance": "i_60",
+  "caption": "A woman is standing on a hiking trail, surrounded by tall trees and lush greenery. She is wearing a backpack and hiking boots, indicating that she is prepared for an outdoor adventure. The trail appears to be well-marked and well-maintained, making it an enjoyable and safe hiking experience. The woman is looking ahead, possibly planning her route or admiring the natural beauty of the surroundings. The scene captures the serenity and tranquility of nature, making it an attractive destination for hikers and nature enthusiasts.",
+  "question": "What activity is this person doing?",
+  "possible_answers": ["swimming", "cooking", "hiking", "dancing"],
+  "gpt_answer": "hiking",
+  "knowledge_type": "1",
+  "explanation": "The description of a woman standing on a hiking trail, wearing a backpack and hiking boots, and surrounded by tall trees and lush greenery indicates that she is most likely engaging in the activity of hiking."
+},
+
+{
+"instance": "i_61",
+"caption": "A lively parade is taking place in the city, with a group of people gathered on the street. The parade features a variety of colorful floats, including one with a giant head and another with a pair of shoes. There are several people in the crowd, some standing near the floats and others scattered throughout the scene. In addition to the people, there are several cars parked along the street, likely belonging to those attending the parade or participating in it. A traffic light can be seen at the end of the street, indicating that the parade is taking place in a busy area. Overall, the scene is filled with vibrant colors and lively energy, showcasing the joy and excitement of the parade.",
+"question": "What objects are being advertised on a billboard?",
+"possible_answers": ["phones", "bones", "scones", "cones"],
+"gpt_answer": "cones",
+"knowledge_type": "1",
+"explanation": "The image describes a lively parade in the city with colorful floats and cars parked along the street. There is no mention of a billboard in the scene, but the floats with a giant head and a pair of shoes suggest that the objects being advertised might be related to the parade theme. Since cones is the closest option to the objects described in the floats, it is the most likely answer."
+},
+
+{
+"instance": "i_62",
+"caption": "A bustling city street is filled with a large group of people gathered around several motorcycles parked on the sidewalk. There are at least 15 motorcycles in the scene, some of which are parked closer to each other, while others are further apart. The crowd of people is diverse, with individuals of different ages and genders standing around the motorcycles, chatting and enjoying the atmosphere. Some of the motorcycles appear to be vintage models, adding to the nostalgic feel of the scene. In addition to the motorcycles, there are several handbags scattered throughout the area, likely belonging to the people attending the event. Overall, the image captures a lively gathering of people and motorcycles in a bustling city setting.",
+"question": "What event is happening here?",
+"possible_answers": ["motorcycle parade", "car race", "car show", "car sale"],
+"gpt_answer": "motorcycle parade",
+"knowledge_type": "1",
+"explanation": "The image describes a bustling city street filled with people gathered around motorcycles. The presence of at least 15 motorcycles and the description of a diverse crowd chatting and enjoying the atmosphere suggests that this scene is likely related to a motorcycle event. Among the given options, 'motorcycle parade' is the most suitable event for the described scenario."
+},
+
+{
+"instance": "i_63",
+"caption": "A group of men are gathered around a kitchen counter, cooking and preparing food together. There are four men in the scene, each wearing an apron, and they appear to be enjoying the process of preparing their meal. A bowl can be seen on the counter, likely containing ingredients for the dish they are preparing. In addition to the bowl, there is another bowl located closer to the left side of the image. There are also two cups placed on the counter, possibly used for serving or drinking during the cooking process. A potted plant can be seen in the background, adding a touch of greenery to the scene. Overall, the group of men appears to be having a fun and enjoyable time as they work together to prepare their meal.",
+"question": "What do these people do here?",
+"possible_answers": ["sing", "watch youtube", "watch tv", "cook"],
+"gpt_answer": "cook",
+"knowledge_type": "1",
+"explanation": "The image describes a group of men gathered around a kitchen counter, cooking and preparing food together. The presence of aprons and bowls containing ingredients suggests that they are engaged in cooking. Among the given options, 'cook' is the most suitable activity for the described scenario."
+},
+
+{
+"instance": "i_64",
+"caption": "A well-dressed man with glasses is sitting on a chair, wearing a pink shirt and a vest. He is smiling and appears to be enjoying his surroundings. There are several trees visible in the background, adding a natural touch to the scene. In addition to the man, there are two other people present in the image. One person is located towards the left side of the image, while the other person is situated closer to the right side. Both individuals are wearing casual clothing and appear to be relaxing in the outdoor setting.",
+"question": "Why is he smiling?",
+"possible_answers": ["is surprised", "for camera", "won money", "is friendly"],
+"gpt_answer": "is friendly",
+"knowledge_type": "1",
+"explanation": "The image describes a well-dressed man with glasses sitting on a chair and smiling in an outdoor setting. The description does not provide any indication of him being surprised or winning money, and there is no mention of a camera in the scene. Since the man is surrounded by two other people and appears to be enjoying his surroundings, the most likely reason for his smile is that he is friendly."
+},
+
+{
+"instance": "i_65",
+"caption": "A group of police officers are riding horses down a city street. There are several horses in the scene, with some positioned closer to the left side of the image and others towards the right side. The police officers are wearing blue uniforms and helmets, indicating that they are part of a law enforcement team. They appear to be patrolling the area, possibly during a parade or other public event. In addition to the mounted police officers, there is a car parked on the side of the street, likely belonging to one of the officers or providing transportation for them. Overall, the scene depicts a group of law enforcement officers on horseback patrolling a city street.",
+"question": "Why are the people wearing blue outfit?",
+"possible_answers": ["visibility", "dress code", "uniform", "fashion"],
+"gpt_answer": "uniform",
+"knowledge_type": "1",
+"explanation": "The image describes a group of police officers riding horses down a city street, wearing blue uniforms and helmets. The presence of blue uniforms indicates that they are dressed in a uniform. Among the given options, 'uniform' is the most suitable reason for the people wearing blue outfits."
+},
+
+{
+"instance": "i_66",
+"caption": "A group of young people are gathered at a skate park, enjoying their time on the skateboards. There are several skateboards visible in the scene, with one person riding a skateboard in the foreground. The other skateboarders are scattered throughout the area, some closer to the camera while others are further away. In addition to the skateboards, there are several backpacks present in the scene. Some of the backpacks are placed close to the skateboarders, while others are more spread out, indicating that they may belong to other people in the area. Overall, the scene captures a lively and active atmosphere at the skate park, with both skateboarders and backpacks adding to the vibrancy of the setting.",
+"question": "What type of event is happening here?",
+"possible_answers": ["rodeo", "dog show", "movie", "skateboard expo"],
+"gpt_answer": "skateboard expo",
+"knowledge_type": "1",
+"explanation": "The image describes a group of young people gathered at a skate park, enjoying their time on skateboards. The presence of multiple skateboarders and backpacks suggests that the event is likely related to skateboarding. Among the given options, 'skateboard expo' is the most suitable event for the described scenario."
+},
+
+{
+"instance": "i_67",
+"caption": "There is a young girl standing on a tennis court, holding a tennis racket in her right hand. She is preparing to hit a tennis ball with the racket, which is positioned close to her right side. The girl is wearing a white shirt and black shorts, and she appears to be focused on her tennis game. In the background, there are several other tennis balls scattered around the court, suggesting that the girl is practicing or playing a game with others. There are also two chairs placed near the edge of the court, possibly for spectators or players to rest during the game. Overall, the scene depicts a young girl engaging in a fun and active tennis game.",
+"question": "What color is the edge of the tennis racket the little girl is using to practice tennis?",
+"possible_answers": ["red", "black", "green", "blue"],
+"gpt_answer": "black",
+"knowledge_type": "2",
+"explanation": "The image depicts a young girl holding a tennis racket while preparing to hit a tennis ball. The specific color of the racket's edge is not mentioned in the caption. However, the knowledge type 'Visual' can be used to infer that tennis rackets commonly have black edges, which makes 'black' the most likely answer."
+},
+
+{
+"instance": "i_68",
+"caption": "Three chefs are working together in a kitchen, preparing vegetables for a meal. They are wearing white hats and aprons, indicating that they are professionals in the culinary field. There are two women and one man involved in the cooking process, each with their own set of knives. One of the women is closer to the left side of the image, while the other woman is situated on the right side. The man is positioned in the middle of the group. In addition to the knives, there are several bowls scattered around the kitchen, likely containing ingredients for the dish they are preparing. A cup can be seen on the left side of the image, possibly used for drinks during the cooking process. Overall, the scene depicts a team of skilled chefs working together to create a delicious meal.",
+"question": "The hats signify their status as what?",
+"possible_answers": ["thieves", "dancers", "lawyers", "chefs"],
+"gpt_answer": "chefs",
+"knowledge_type": "1",
+"explanation": "The image describes three people working together in a kitchen, wearing white hats and aprons. The description of them preparing vegetables for a meal and the presence of knives and bowls suggest that they are likely chefs. Among the given options, 'chefs' is the most suitable status for the people wearing white hats in the described scenario."
+},
+
+{
+"instance": "i_69",
+"caption": "A man is holding a teddy bear while singing into a microphone on stage. He is surrounded by a group of people, some of whom are listening attentively to his performance. In the background, there is another person holding a cell phone, possibly capturing the moment on video or taking a selfie. The stage appears to be well-lit, with multiple lights illuminating the area. The atmosphere is lively and energetic, as the performer engages the audience with his singing and the teddy bear adds a touch of playfulness to the scene.",
+"question": "What is the red thing held by the man?",
+"possible_answers": ["remote", "water bottle", "microphone", "whistle"],
+"gpt_answer": "microphone",
+"knowledge_type": "1",
+"explanation": "The image describes a man holding a teddy bear while singing into a microphone on stage. The presence of the microphone suggests that it is the red thing held by the man. Among the given options, 'microphone' is the most suitable answer for the described scenario."
+},
+
+{
+  "instance": "i_70",
+  "caption": "a bustling city street is filled with pedestrians and bicyclists, creating a lively atmosphere. A large building can be seen in the background, possibly serving as a landmark for the area. There are several people scattered throughout the scene, some walking and others riding bicycles. In addition to the pedestrians and bicyclists, there are two cars parked on the side of the street. One car is closer to the front of the scene, while the other is positioned further back. A traffic light can be seen in the middle of the street, guiding the pedestrians and bicyclists safely through the area. Overall, the scene captures the hustle and bustle of a busy city street.",
+  "question": "What actress was born in this country?",
+  "possible_answers": ["jennifer connelly", "adele haenel", "margaret qualley", "brooke shields"],
+  "gpt_answer": "jennifer connelly",
+  "knowledge_type": "1",
+  "explanation": "The caption of the image does not provide any information about the birthplace of any actress. The answer is selected based on commonsense knowledge that Jennifer Connelly is an actress with a well-known career, and the other options are less likely to be associated with the provided scene."
+},
+
+{
+  "instance": "i_71",
+  "caption": "Three dogs are standing under an umbrella at a farmer's market. Two of the dogs are on leashes, while the third one appears to be off-leash. The market is filled with various fruits, vegetables, and other items for sale. There are multiple people in the scene, some of whom are carrying bags or wearing backpacks. A handbag can be seen near the left side of the image, and another handbag is positioned closer to the center of the scene. In addition to the handbags, there is a car visible in the background, possibly belonging to one of the market patrons.",
+  "question": "What type of vegetables are shown?",
+  "possible_answers": ["fruit", "berries", "roots", "flowers"],
+  "gpt_answer": "roots",
+  "knowledge_type": "1",
+  "explanation": "The caption mentions that the market is filled with various fruits, vegetables, and other items for sale, and there is no specific mention of fruits or berries. The presence of people carrying bags and handbags suggests that they might be purchasing groceries, and roots are commonly sold in farmer's markets, making them the most likely answer."
+},
+
+{
+  "instance": "i_72",
+  "caption": "There is a large group of people gathered at a ski resort on a snowy day. They are wearing various types of skis and snowboards, indicating that they are preparing to go skiing or snowboarding. The group is spread out across the snowy terrain, with some individuals standing closer to each other while others are positioned further away. In total, there are at least 15 people in the scene, enjoying the winter weather and getting ready to hit the slopes.",
+  "question": "Which weather phenomenon is likely to be most frustrating to people seen here at this place?",
+  "possible_answers": ["hard freeze", "snow", "heat wave", "cool wind"],
+  "gpt_answer": "heat wave",
+  "knowledge_type": "1",
+  "explanation": "The scene is set at a ski resort on a snowy day, and people are seen wearing skis and snowboards, which indicates that they are prepared for cold weather. The answer is selected based on commonsense knowledge that a 'heat wave' would be the most frustrating weather phenomenon for people in such a setting, as it would make skiing and snowboarding uncomfortable and difficult."
+},
+
+{
+  "instance": "i_73",
+  "caption": "The image depicts a blue and white passenger train traveling down a set of railroad tracks. The train is surrounded by several other trains on the same track, indicating that it is part of a train yard or station. There are at least six trains visible in the scene, with some closer to the camera and others farther away. In addition to the trains, there are several people scattered throughout the scene. Two people can be seen standing on the left side of the image, while another person is positioned on the right side. There may be more people in the scene, but they are less visible due to the focus on the trains and their surroundings. Overall, the image captures a bustling train yard with multiple trains moving along the tracks.",
+  "question": "What is the name of the painting on the outside of the blue train?",
+  "possible_answers": ["fine art", "acrylic", "graffiti", "oil"],
+  "gpt_answer": "graffiti",
+  "knowledge_type": "1",
+  "explanation": "The caption mentions that the blue train is surrounded by several other trains on the same track, and there is no information about paintings or artworks on the trains. However, 'graffiti' is commonly associated with train cars, and it's more likely to be present on the outside of a train, making it the most plausible answer."
+},
+
+{
+  "instance": "i_74",
+  "caption": "A vibrant and colorful display of umbrellas is showcased in a clothing store. The umbrellas are arranged in a unique and eye-catching way, making them the centerpiece of the store. There are multiple umbrellas of different colors and sizes, creating a lively atmosphere for customers to browse through. Some of the umbrellas are positioned closer to the front of the store, while others are placed further back, adding depth to the display. In addition to the umbrellas, there are several clothing items visible in the store, including shirts, pants, and shoes. A person can be seen standing near the umbrella display, possibly admiring the colorful assortment or browsing through the clothing options.",
+  "question": "This shop is situated in which country?",
+  "possible_answers": ["france", "netherlands", "britain", "italy"],
+  "gpt_answer": "italy",
+  "knowledge_type": "1",
+  "explanation": "The caption does not directly mention the country where the shop is situated. The answer is selected based on the visual knowledge that vibrant and colorful displays like the one described are often associated with Italy, which is known for its artistic and vibrant culture."
+},
+
+{
+  "instance": "i_75",
+  "caption": "Three people are standing on the side of a busy city street. They are wearing black jackets and helmets, indicating that they are motorcycle enthusiasts. There are two motorcycles parked on the side of the street, with one closer to the left side and the other closer to the right side. In addition to the motorcycles, there are several other vehicles in the scene, including a car, a truck, and a bus. Some of these vehicles are parked on the street, while others are moving along the road. There are also several handbags scattered throughout the scene, likely belonging to the people standing on the street.",
+  "question": "In what group are the people with Black Racing jackets?",
+  "possible_answers": ["school class", "family", "club", "volunteers"],
+  "gpt_answer": "club",
+  "knowledge_type": "1",
+  "explanation": "The caption states that the people are wearing black jackets and helmets, indicating that they are motorcycle enthusiasts. It doesn't provide any specific information about their relationships or affiliations. However, based on commonsense knowledge, people with similar interests, such as motorcycle enthusiasts, often form or belong to clubs or motorcycle clubs."
+},
+
+{
+  "instance": "i_76",
+  "caption": "A group of people are enjoying a day at the beach, engaging in various water activities. They are parasailing in the ocean, with multiple parasails visible in the sky. Some of the parasails are closer to the shore, while others are further out in the water. In addition to the parasailing, there are several surfers in the water, riding the waves and enjoying the ocean breeze. Overall, the scene showcases a vibrant and lively atmosphere as people engage in various water sports.",
+  "question": "If a boat was responsible for their momentum, the sport would be called what?",
+  "possible_answers": ["paddle boarding", "water skiing", "sky diving", "bungee jumping"],
+  "gpt_answer": "water skiing",
+  "knowledge_type": "1",
+  "explanation": "The caption mentions that people are parasailing and surfing in the water, but it doesn't provide information about a boat being responsible for their momentum. However, based on visual knowledge, water skiing involves being pulled behind a boat, and it fits the scenario of people engaging in water activities with the help of a boat."
+},
+
+{
+  "instance": "i_77",
+  "caption": "A couple is sitting on a bench in front of a lighthouse at night. The lighthouse is illuminated, casting a warm and inviting glow over the area. The couple is enjoying the serene atmosphere as they sit on the bench, taking in the beauty of the lighthouse and the surrounding water. In addition to the couple, there are several other people visible in the scene. One person is standing towards the left side of the image, while another person is closer to the right side. There are also two more people further away from the lighthouse, one on the left side and the other on the right side of the image. Overall, the scene radiates a peaceful and romantic ambiance, capturing the essence of a relaxing evening by the water.",
+  "question": "What material is the lighthouse made from?",
+  "possible_answers": ["brick", "metal", "wood", "stone"],
+  "gpt_answer": "stone",
+  "knowledge_type": "1",
+  "explanation": "The caption doesn't provide specific information about the material of the lighthouse. However, based on commonsense knowledge, lighthouses are often made from durable and weather-resistant materials, and 'stone' is a common material used in constructing lighthouses due to its sturdiness and longevity."
+},
+
+{
+  "instance": "i_78",
+  "caption": "There are three giraffes standing in a dirt area near a fence. Two of the giraffes are close to each other, while the third giraffe is slightly further away. In addition to the giraffes, there are several ducks present in the scene. The ducks are scattered around the area, some closer to the giraffes and others further away. A few trees can be seen in the background, providing shade for the animals. Overall, the scene depicts a group of giraffes and ducks interacting in their enclosure.",
+  "question": "What animal's legs are closest to the ground here?",
+  "possible_answers": ["birds", "pigs", "bears", "giraffes"],
+  "gpt_answer": "birds",
+  "knowledge_type": "1",
+  "explanation": "The caption describes that there are ducks present in the scene, and ducks are birds with legs that are closest to the ground. While giraffes are also mentioned in the caption, their legs are not necessarily the closest to the ground in this specific scene, making 'birds' the most plausible answer."
+},
+
+{
+  "instance": "i_79",
+  "caption": "A group of people is gathered around an old red and black locomotive on a train track. The train is parked on the tracks, and there are several people standing near it, admiring the vintage train. Some of the people are closer to the front of the train, while others are positioned further back. In addition to the people, there are two handbags visible in the scene. One handbag is placed near the left side of the train, while the other is situated closer to the right side of the train. There is also a person holding a cell phone in the scene, possibly capturing the moment or communicating with others.",
+  "question": "Why is the man wearing an orange vest?",
+  "possible_answers": ["warmth", "fashion", "protection", "visibility"],
+  "gpt_answer": "visibility",
+  "knowledge_type": "1",
+  "explanation": "The caption doesn't provide any explicit information about why the man is wearing an orange vest. However, based on commonsense knowledge, orange vests are often worn for increased visibility and safety, especially in environments like train tracks or construction sites where people need to be easily seen."
+},
+
+{
+  "instance": "i_80",
+  "caption": "The train station is located in a mountainous area, with a green and white train parked at the platform. The train appears to be waiting for passengers to board or disembark. There are several people visible in the scene, some standing near the train and others further away from it. In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the passengers. The overall atmosphere of the scene is peaceful and serene, with the mountainous backdrop providing a picturesque setting for the train station.",
+  "question": "What will this vehicle be traveling on?",
+  "possible_answers": ["roads", "rails", "air", "wooden blocks"],
+  "gpt_answer": "rails",
+  "knowledge_type": "1",
+  "explanation": "The caption clearly mentions that the green and white train is parked at the platform in a train station, which indicates that it will be traveling on 'rails.' Rails are used for trains, and it's the most suitable answer based on commonsense knowledge."
+},
+
+{
+  "instance": "i_81",
+  "caption": "A group of people are gathered around a dining table, enjoying a meal together. The table is set with various dishes and utensils, including plates, bowls, cups, and wine glasses. There are two wine glasses placed on the table, one closer to the left side and the other closer to the right side. In addition to the food and drinks, there are several bottles scattered around the table. One bottle is positioned near the center of the table, while another is located closer to the right side. There are also two knives placed on the table, one closer to the left side and the other closer to the right side. Overall, the scene depicts a cozy and enjoyable meal shared among friends.",
+  "question": "The shiny bottle with white label was used to serve what?",
+  "possible_answers": ["beer", "cocktails", "aperitif", "wine"],
+  "gpt_answer": "wine",
+  "knowledge_type": "1",
+  "explanation": "The presence of wine glasses and bottles, along with the description of a cozy and enjoyable meal, suggests that the shiny bottle with a white label was most likely used to serve wine."
+},
+
+{
+  "instance": "i_82",
+  "caption": "A beautiful young woman in a yellow bikini is standing on the beach, holding a white and blue surfboard. She appears to be preparing for a surfing session or enjoying her time at the beach. The surfboard is positioned close to the woman's feet, indicating that she is ready to hit the waves. In the background, there are several other people visible on the beach, some closer to the woman and others further away. They appear to be engaging in various activities, such as sunbathing, swimming, or simply enjoying the scenery.",
+  "question": "Where has this person been most recently?",
+  "possible_answers": ["inland", "water", "undersea", "air"],
+  "gpt_answer": "water",
+  "knowledge_type": "2",
+  "explanation": "The image describes a woman holding a surfboard and being on the beach, which strongly suggests that she has been most recently in the water, likely surfing or engaging in beach-related activities."
+},
+
+{
+  "instance": "i_83",
+  "caption": "A person is cutting a cake on a dining table. The cake is placed on a glass cake stand, and the person is holding a knife to slice it. The cake appears to be a bundt cake, which is a type of cake with a cylindrical shape and a distinctive hole in the center. There are several other objects on the table, including two cups, a bowl, and a bottle. The scene suggests that the person is preparing to serve or share the cake with others.",
+  "question": "What type of cake is this?",
+  "possible_answers": ["garash cake", "circle cake", "cupcake", "bundt cake"],
+  "gpt_answer": "bundt cake",
+  "knowledge_type": "2",
+  "explanation": "The description of the cake having a distinctive hole in the center and being placed on a glass cake stand suggests that it is a bundt cake, which is known for its cylindrical shape with a hole in the middle."
+},
+
+{
+  "instance": "i_84",
+  "caption": "A person is wearing a large red costume, resembling a cockroach, and holding a cell phone to their ear. They are standing in the middle of a busy street, surrounded by other people, some of whom are also holding cell phones. There are several cars visible in the background, adding to the bustling atmosphere of the scene. The person wearing the cockroach costume appears to be engrossed in their conversation on the phone, possibly enjoying the attention they are getting from the other people around them.",
+  "question": "What property does the black part of the costume have?",
+  "possible_answers": ["sunproof", "cold resistant", "breathable", "waterproof"],
+  "gpt_answer": "breathable",
+  "knowledge_type": "1",
+  "explanation": "Based on the description of the person wearing the costume in a busy street, the property of the black part being 'breathable' makes sense to ensure the comfort of the person inside the costume."
+},
+
+{
+  "instance": "i_85",
+  "caption": "A group of skateboarders is gathered at a skate park, enjoying the day and practicing their skills. There are several skateboarders in the scene, with some riding on ramps and others performing tricks on the ground. The skateboarders range in age and skill level, showcasing the diversity of skateboarding enthusiasts. In addition to the skateboarders, there are several benches scattered around the park, providing seating options for those who want to take a break or watch the skateboarders in action. A few cars can be seen in the background, possibly belonging to the skateboarders or visitors to the park. Overall, the scene captures the lively atmosphere of a skate park on a sunny day.",
+  "question": "What is the vessel called that's parked in the harbor?",
+  "possible_answers": ["ferry", "cruise ship", "battleship", "cargo ship"],
+  "gpt_answer": "cargo ship",
+  "knowledge_type": "1",
+  "explanation": "The image describes a skate park scene, and there is no mention of a harbor or vessels. Therefore, this question cannot be answered based on the provided information."
+},
+
+{
+  "instance": "i_86",
+  "caption": "Two young boys are skateboarding and riding bicycles at a skate park. One boy is riding a skateboard, while the other is riding a bicycle. Both boys are wearing helmets, indicating that they are taking safety precautions while enjoying their time at the skate park. There are several chairs scattered throughout the scene, possibly belonging to spectators or park visitors. In addition to the skateboard and bicycle, there are two backpacks visible in the scene, one on the left side and another on the right side of the image.",
+  "question": "Why are the boys wearing hard plastic helmets?",
+  "possible_answers": ["protection", "fashion", "costume", "punishment"],
+  "gpt_answer": "protection",
+  "knowledge_type": "1",
+  "explanation": "The fact that both boys are wearing helmets suggests that they are likely wearing them for protection while skateboarding and riding bicycles at the skate park."
+},
+
+{
+  "instance": "i_87",
+  "caption": "A cute black and white kitten is sitting on a wooden floor, surrounded by several bowls filled with cat food. The kitten appears to be eating from one of the bowls, while the other bowls are scattered around the area. There are two more bowls placed further away from the kitten, indicating that there might be more cats in the vicinity. In addition to the bowls, there is a cup placed on the floor near the kitten, possibly used for water or another beverage. The overall scene showcases a cozy and welcoming environment for the cats to enjoy their meals.",
+  "question": "What is a common brand of cat food?",
+  "possible_answers": ["rain", "ebony", "bones", "meow mix"],
+  "gpt_answer": "meow mix",
+  "knowledge_type": "3",
+  "explanation": "The question asks for a common brand of cat food, which is a factual detail that can be obtained from knowledge bases such as websites, product catalogs, or consumer reviews. 'Meow Mix' is a well-known brand of cat food, making it the most likely answer."
+},
+
+{
+  "instance": "i_88",
+  "caption": "The image depicts a scenic view of a harbor with several boats floating on the water. There are two large boats, one in the foreground and another in the background, as well as several smaller boats scattered throughout the harbor. In addition to the boats, there are several buildings visible in the background, likely representing the cityscape surrounding the harbor. A few cars can also be seen parked near the water's edge, adding to the lively atmosphere of the scene. Overall, the image captures a bustling harbor with a mix of boats and land-based transportation.",
+  "question": "In what country is this river in?",
+  "possible_answers": ["italy", "britain", "france", "spain"],
+  "gpt_answer": "Not enough information to answer the question",
+  "knowledge_type": "1",
+  "explanation": "The image describes a scenic view of a harbor with boats, buildings, and cars. However, there is no specific mention of the river's location or country, so it's not possible to answer the question based on the provided information."
+},
+
+{
+  "instance": "i_89",
+  "caption": "A bicycle is leaning against a wooden bench on a grassy hillside overlooking a valley. The bicycle is parked near the bench, which is positioned in the middle of the scene. There are several people visible in the background, possibly enjoying the scenic view or taking a rest on the bench. In addition to the bicycle and bench, there are several other objects scattered around the area, including a handbag, a backpack, and a bottle of water.",
+  "question": "Why has the bike been placed near the bench?",
+  "possible_answers": ["to repair", "to dry", "to stand", "to paint"],
+  "gpt_answer": "to stand",
+  "knowledge_type": "1",
+  "explanation": "The image describes a bicycle leaning against a bench on a grassy hillside. Since the bicycle is parked near the bench, it is most likely placed there to stand and be stored temporarily."
+},
+
+{
+  "instance": "i_90",
+  "caption": "A young man is sitting at a dining table, holding a large slice of pizza in front of him. He appears to be enjoying his meal as he takes a big bite out of the pizza. The dining table is positioned in the center of the scene, surrounded by chairs. There are two chairs on either side of the table, with one closer to the man and the other further away. In addition to the chairs, there is a bowl placed on the table, possibly used for condiments or other accompaniments to the pizza.",
+  "question": "What type of diet does the person shown have?",
+  "possible_answers": ["atkins", "omnivorous", "vegan", "vegetarian"],
+  "gpt_answer": "omnivorous",
+  "knowledge_type": "1",
+  "explanation": "The image describes a young man enjoying a large slice of pizza. Based on the available information, it is not possible to determine his specific dietary preferences, but since pizza is a dish that can be enjoyed by omnivores (people who eat both plant-based and animal-based foods), 'omnivorous' is the most likely answer."
+},
+
+{
+  "instance": "i_91",
+  "caption": "There is a city street at night with a building on the left side of the image. The building has a sign that reads 'Sanders' on its facade. There are several cars parked along the street, some closer to the building and others further away. A traffic light can be seen in the middle of the street, indicating the presence of pedestrians and vehicles passing by. Additionally, there are several traffic cones placed around the area, possibly for construction or maintenance purposes. Overall, the scene depicts a bustling city street at night with various vehicles and pedestrians moving about.",
+  "question": "What might come from the right or left at any time?",
+  "possible_answers": ["lava", "train", "tank", "car"],
+  "gpt_answer": "car",
+  "knowledge_type": "1",
+  "explanation": "The image describes a city street scene with cars parked along the street and a traffic light, suggesting that cars are the most common and expected mode of transportation that might come from the right or left at any time."
+},
+
+{
+  "instance": "i_92",
+  "caption": "A mother is helping her son put on his tie. She is standing next to him, looking at his neck and adjusting his tie. The son is wearing a white shirt and glasses, while the mother is also wearing glasses. There are two chairs in the room, one on the left side of the image and the other on the right side. Both chairs are positioned close to the mother and son, indicating that they might be preparing for an event or a special occasion.",
+  "question": "What color is the collar worn on the shirt with the man having his tie tied?",
+  "possible_answers": ["green", "black", "white", "blue"],
+  "gpt_answer": "Not enough information to answer the question",
+  "knowledge_type": "1",
+  "explanation": "The image describes a mother helping her son put on a tie, but there is no specific mention of the color of the collar on the man's shirt. Therefore, it's not possible to answer the question based on the provided information."
+},
+
+{
+  "instance": "i_93",
+  "caption": "There is a large sculpture in the center of the image, which resembles a bird with its wings spread out. The sculpture is made of metal and appears to be suspended in the air, as if it's flying. A group of people can be seen standing near the sculpture, likely admiring its unique design. In the background, there is a building with a clock on its facade, adding a sense of time to the scene. Additionally, there are several benches placed around the area, providing seating for those who want to take a break and enjoy the surroundings.",
+  "question": "The human-shaped decorations are made of what material?",
+  "possible_answers": ["metal", "wood", "cement", "plastic"],
+  "gpt_answer": "metal",
+  "knowledge_type": "2",
+  "explanation": "The description of the large sculpture being made of metal indicates that the human-shaped decorations around the area are also made of metal, as they are part of the same sculpture."
+},
+
+{
+  "instance": "i_94",
+  "caption": "There is a young girl standing in front of a blue and silver high-speed train at a train station. She is wearing a brown jacket and appears to be waiting for the next train to arrive. The train is parked on the platform, and there are several other people nearby, possibly waiting for their own transportation or observing the scene. In the background, there are two more trains visible, one closer to the girl and the other further away. A few handbags can be seen scattered around the scene, possibly belonging to some of the people waiting at the station. Overall, the image captures a moment of excitement and anticipation as the young girl prepares to board the high-speed train.",
+  "question": "What location is the train parked in?",
+  "possible_answers": ["train depot", "desert", "horse stop", "taxi station"],
+  "gpt_answer": "train depot",
+  "knowledge_type": "1",
+  "explanation": "The image describes a scene at a train station, and the train being parked on the platform suggests that it is at a 'train depot,' which is a location where trains are stationed and serviced."
+},
+
+{
+  "instance": "i_95",
+  "caption": "A woman is washing a sheep with a hose in an outdoor setting. She is standing next to the sheep, holding the hose and spraying it onto the animal's body. There are several chairs scattered around the area, possibly for people to sit and watch the sheep being washed. In addition to the woman and the sheep, there are two other people visible in the scene, one on the left side of the image and the other on the right side. They may be observing the sheep washing process or simply enjoying the outdoor atmosphere.",
+  "question": "Why is the woman hosing the animal off?",
+  "possible_answers": ["it's cold", "it's thirsty", "it's hot", "it's dirty"],
+  "gpt_answer": "it's hot",
+  "knowledge_type": "1",
+  "explanation": "The image describes a woman washing a sheep with a hose, which is a common practice during hot weather to help cool down the animal."
+},
+
+{
+  "instance": "i_96",
+  "caption": "A group of people are gathered around a picnic table, enjoying a meal together. The table is filled with various food items, including sandwiches, fruits, and desserts. There are also several bottles placed on the table, likely containing drinks. In addition to the food and drinks, there are several backpacks scattered around the area, possibly belonging to the picnickers. Some of the backpacks are closer to the picnic table, while others are positioned further away. Overall, it appears to be a relaxing and enjoyable outdoor gathering.",
+  "question": "California is the largest producer of which fruit?",
+  "possible_answers": ["apple", "berries", "grapes", "avocados"],
+  "gpt_answer": "grapes",
+  "knowledge_type": "3",
+  "explanation": "The question asks for a fact about California's agricultural production. Grapes are well-known to be a significant agricultural product of California, making it the most likely answer."
+},
+
+{
+  "instance": "i_97",
+  "caption": "The bedroom is well-appointed, with a large bed taking up most of the space in the room. The bed is adorned with a colorful floral comforter and pillows, creating a cozy and inviting atmosphere. There are two chairs placed near the bed, one on the left side and the other on the right side. In addition to the chairs, there are two bottles visible in the room. One bottle is located on the left side of the bed, while the other is situated on the right side. A backpack can also be seen on the left side of the bed, possibly belonging to someone staying in the room. Overall, the bedroom appears to be well-furnished and ready for guests to relax and enjoy their stay.",
+  "question": "What fruit is the same color as the roundish flower on the cover?",
+  "possible_answers": ["apple", "plum", "orange", "damson"],
+  "gpt_answer": "plum",
+  "knowledge_type": "1",
+  "explanation": "The description mentions a roundish flower on the cover of the bed, and the fruit that is commonly associated with such a color is a 'plum.'"
+},
+
+{
+  "instance": "i_98",
+  "caption": "A young girl is standing in front of a fenced-in sheep, reaching out to pet the animal. She is wearing a black dress and appears to be delighted by the sheep's presence. The sheep is looking directly at the girl, as if curious about her. There is a wooden fence surrounding the sheep's enclosure, ensuring a safe distance between the animal and visitors. In the background, there are several other sheep visible, possibly part of the same flock. The scene captures a sweet and endearing moment of interaction between the girl and the friendly sheep.",
+  "question": "What color are the sheep in the background?",
+  "possible_answers": ["black", "brown", "white", "gray"],
+  "gpt_answer": "Not enough information to answer the question",
+  "knowledge_type": "1",
+  "explanation": "The image describes a young girl interacting with a sheep in front of a fenced-in enclosure. There is no specific mention of the color of the sheep in the background, so it's not possible to answer the question based on the provided information."
+},
+
+{
+  "instance": "i_99",
+  "caption": "A woman is sitting on a rock at the edge of a beautiful waterfall. The waterfall cascades down from a rocky cliff, creating a picturesque scene of nature's beauty. The woman is wearing a red jacket and appears to be enjoying the serene atmosphere. In the background, there are several trees and lush vegetation, adding to the natural beauty of the surroundings. The water from the waterfall flows into a clear pool below, offering a refreshing spot for visitors to take a dip or admire the view.",
+  "question": "What might visitors do in the clear pool?",
+  "possible_answers": ["swim", "play hockey", "drink", "sleep"],
+  "gpt_answer": "swim",
+  "knowledge_type": "1",
+  "explanation": "The image describes a woman sitting near a waterfall with water flowing into a clear pool below. Since it's a clear pool of water, the most likely activity for visitors to do there is to 'swim.'"
+},
+
+{
+  "instance": "i_100",
+  "caption": "A man is sitting on a bench in a park, feeding pigeons that have gathered around him. He is holding a bag of birdseed, and the pigeons are perched on the bench and the ground, eagerly pecking at the food. The man appears to be enjoying the company of the birds and the tranquil surroundings of the park. In the background, there are several trees and greenery, contributing to the peaceful ambiance of the scene. The pigeons' presence adds a sense of harmony between humans and nature in the urban setting.",
+  "question": "What animal would the man be feeding?",
+  "possible_answers": ["dogs", "pigeons", "ducks", "squirrels"],
+  "gpt_answer": "pigeons",
+  "knowledge_type": "1",
+  "explanation": "The image describes a man sitting on a bench in a park, feeding birds with a bag of birdseed. The description of the pigeons gathering around him to peck at the food suggests that the animal the man would be feeding is 'pigeons.'"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

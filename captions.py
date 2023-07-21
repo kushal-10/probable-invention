@@ -1,25 +1,15 @@
-# import requests
-# from PIL import Image
-from transformers import AutoProcessor, Blip2ForConditionalGeneration
-# import torch
-# import pandas as pd
-# import csv
-
-
-# FOR LAVIS
-import pandas as pd
+from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
 import torch
 from PIL import Image
-import requests
-from lavis.models import load_model_and_preprocess
+import pandas as pd
+import csv
 
-def generate_captions():
+def generate_image_list():
 
     """
-    Generate Captions for the selected 100 images and store them in a list
+    Generate image locations for the selected 100 images and store them in a list
     """
-
-    # GET LIST OF IMAGES
+    
     image_list = []
     df = pd.read_csv('the_hundread.csv')
     for i in range(len(df)):
@@ -30,59 +20,62 @@ def generate_captions():
         # append to a list of images to be used for blip
         image_list.append(im)
 
-    print("List generated")
-#     # GET CORRESPONDING CAPTIONS
-    processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
-    model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
-    # model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")  
+    return image_list
+
+def generate_captions(image_list):
+    """
+    Takes the list of images as input and generates captions for the selected 100 images and store them in a list
+    Return the caption list
+    """
+    
+    model = InstructBlipForConditionalGeneration.from_pretrained("Salesforce/instructblip-vicuna-7b")
+    processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-vicuna-7b")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
-    print(device)
-    image = Image.open(image_list[0])
 
-    prompt = "Task: Describe the image in 3 sentences. Answer:"
-    inputs = processor(image, text=prompt, return_tensors="pt").to(device, torch.float16)
-    # inputs = processor(image, return_tensors="pt").to(device)
-    generated_ids = model.generate(**inputs, max_new_tokens=200)
-    # print(len(generated_ids))
-    generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
-    print(generated_text)
+    captions = []
 
-    # prompt2 = "Question: Which two of the giraffes from left to right appear to be the youngest ones? Answer:" + str(generated_text) + ". Question: Why? Answer:"
-    # print(prompt2)
-    # inputs2 = processor(image, text=prompt2, return_tensors="pt").to(device, torch.float16)
-    # # inputs = processor(image, return_tensors="pt").to(device)
-    # generated_ids2 = model.generate(**inputs2, max_new_tokens=200)
-    # # print(len(generated_ids))
-    # generated_text2 = processor.batch_decode(generated_ids2, skip_special_tokens=True)[0].strip()
-    # print(generated_text2)
-     
-     
-    
-generate_captions()
+    for i in range(len(image_list)):
+        raw_image = Image.open(image_list[i]).convert("RGB")
+        prompt = "Give a detailed caption for this image"
+        inputs = processor(images=raw_image, text=prompt, return_tensors="pt").to(device)
+        outputs = model.generate(
+            **inputs,
+            do_sample=False,
+            num_beams=5,
+            max_length=256,
+            min_length=1,
+            top_p=0.9,
+            repetition_penalty=1.5,
+            length_penalty=1.0,
+            temperature=1,
+        )
+        generated_text = processor.batch_decode(outputs, skip_special_tokens=True)[0].strip()
+        captions.append(generated_text)
 
-def salesforce_lavis_gen():
+    return captions
 
-    image_list = []
-    df = pd.read_csv('the_hundread.csv')
-    for i in range(len(df)):
-        num = df['image_id'].loc[i]
-        # Pad with zeros to get exact location of image : example 000000214547.jpg
-        pad = '%012d' % num
-        im = 'images/' + str(pad) + '.jpg'
-        # append to a list of images to be used for blip
-        image_list.append(im)
+def get_prompt_text(captions):
+    with open('the_hundread.csv', 'r') as file:
+        csv_reader = csv.DictReader(file)
+    csv_data = list(csv_reader)
 
+    # Generate the output text
+    output_text = ''
+    for i in range(len(csv_data)):
+        instance_text = f'i_{i+1}:{{\n'
+        #instance_text += f'C_{i+1}: "{txt_data[i].strip()}";\n'
+        # instance_text += f'C_{i+1}: [placeholder_'+str(i+1)+']\n'
+        instance_text += f'C_{i+1}: "{captions[i]}";\n'
+        instance_text += f'Q_{i+1}: "{csv_data[i]["question"]}";\n'
+        instance_text += f'A_{i+1}:{{\n'
+        instance_text += f'A_{i+1}_1: "{csv_data[i]["choices"].split(",")[0].strip()}";\n'
+        instance_text += f'A_{i+1}_2: "{csv_data[i]["choices"].split(",")[1].strip()}";\n'
+        instance_text += f'A_{i+1}_3: "{csv_data[i]["choices"].split(",")[2].strip()}";\n'
+        instance_text += f'A_{i+1}_4: "{csv_data[i]["choices"].split(",")[3].strip()}";\n'
+        instance_text += '}};\n\n'
+        output_text += instance_text
 
-    device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
-    raw_image = Image.open(image_list[0]).convert("RGB")
-    model, vis_processors, _ = load_model_and_preprocess(
-        name="blip2", model_type="coco", is_eval=True, device=device
-    )
-    image = vis_processors["eval"](raw_image).unsqueeze(0).to(device)
-    caption_list = model.generate({"image": image}, use_nucleus_sampling=True)
-    print(caption_list)
-    
-    return None
-
-# salesforce_lavis_gen()
+    # Write the output text to a new TXT file
+    with open('prompting_set_vicuna7B.txt', 'w') as file:
+        file.write(output_text)

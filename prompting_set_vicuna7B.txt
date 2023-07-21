@@ -1,0 +1,1000 @@
+i_1:{
+C_1: "There is a group of four giraffes standing near a puddle of water in a grassy field. The giraffes appear to be socializing and interacting with each other, possibly drinking from the puddle. They are spread out across the scene, with one giraffe standing closer to the puddle and the other three positioned further away. The giraffes are of varying heights, with the closest one being the tallest and the furthest one being the shortest. In the background, there is another giraffe visible, but it is not as close to the puddle as the rest of the group. Overall, the scene depicts a lively and social gathering of giraffes in their natural habitat.";
+Q_1: "Which two of the giraffes from left to right appear to be the youngest ones?";
+A_1:{
+A_1_1: "left";
+A_1_2: "right";
+A_1_3: "end";
+A_1_4: "middle";
+}};
+
+i_2:{
+C_2: "There is a group of dogs swimming in the ocean, surrounded by a group of people. Some of the dogs are wearing life jackets, while others appear to be enjoying the water without any protective gear. The dogs are spread out across the scene, with some closer to the shore and others further out in the water. The people in the scene are actively engaging with the dogs, possibly assisting them in their swimming or simply enjoying the company of the canine companions.";
+Q_2: "What treat does pictured animal like?";
+A_2:{
+A_2_1: "bone";
+A_2_2: "catnip";
+A_2_3: "chili peppers";
+A_2_4: "vinegar";
+}};
+
+i_3:{
+C_3: "a pink bus is driving down a busy city street, surrounded by a variety of other vehicles including cars, trucks, and motorcycles. The bus is parked in the middle of the street, while the other vehicles are moving around it. Some of the cars are closer to the bus, while others are positioned further away. In addition to the vehicles, there are several pedestrians walking along the sidewalks, adding to the bustling atmosphere of the street.";
+Q_3: "What continent is this road located at?";
+A_3:{
+A_3_1: "europe";
+A_3_2: "africa";
+A_3_3: "asia";
+A_3_4: "australia";
+}};
+
+i_4:{
+C_4: "A vintage black and red locomotive is parked on a train track near a brick building. The train appears to be stationary, possibly waiting for its next departure. There are several people visible in the scene, with some standing near the train and others further away from it.  In addition to the people, there are several cars scattered throughout the scene. One car is positioned closer to the train, while others are located further away from it. Overall, the image captures a peaceful moment at a train station, with the locomotive as the centerpiece of the scene.";
+Q_4: "Where were the first bricks used?";
+A_4:{
+A_4_1: "middle east";
+A_4_2: "spain";
+A_4_3: "britain";
+A_4_4: "america";
+}};
+
+i_5:{
+C_5: "there are two young girls playing together in a grassy field. One girl is throwing a frisbee, while the other girl is catching it. They appear to be enjoying their time outdoors and engaging in a fun game of frisbee. In the background, there are several cars parked on the side of the field, possibly belonging to the girls' families or friends. A truck can also be seen further away from the main action. Overall, the scene depicts a lively and joyful atmosphere as the girls engage in their favorite outdoor activity.";
+Q_5: "What action did the girl take?";
+A_5:{
+A_5_1: "throw";
+A_5_2: "fall";
+A_5_3: "roll";
+A_5_4: "jump";
+}};
+
+i_6:{
+C_6: "there are two elephants standing next to each other in a dirt area. One of the elephants has a rider sitting on its back, while the other elephant is not being ridden. Both elephants are positioned close to each other, with one slightly closer to the left side of the image and the other closer to the right side. In addition to the elephants, there are several trees scattered throughout the scene, providing a natural setting for the animals. A few people can be seen in the background, possibly observing or interacting with the elephants.";
+Q_6: "What power will be used to move logs here?";
+A_6:{
+A_6_1: "elephant";
+A_6_2: "tractor";
+A_6_3: "man power";
+A_6_4: "boats";
+}};
+
+i_7:{
+C_7: "The image depicts a large, old-fashioned steamboat sailing on a body of water. The boat is surrounded by a group of people standing on the deck, enjoying the scenic view. There are several people scattered throughout the deck, with some closer to the front of the boat and others positioned further back.  In addition to the people, there are several other objects visible in the scene, including a handbag placed near the left side of the boat, a bottle on the right side of the boat, and an umbrella on the left side of the boat. The overall atmosphere is one of relaxation and enjoyment, as the passengers take in the sights and sounds of the water and their surroundings.";
+Q_7: "What country does the name of the boat originate from?";
+A_7:{
+A_7_1: "germany";
+A_7_2: "india";
+A_7_3: "mexico";
+A_7_4: "japanese";
+}};
+
+i_8:{
+C_8: "A group of people are enjoying a day at the beach, with several surfboards and boogie boards visible in the water. There is a young boy sitting on a surfboard in the middle of the ocean, surrounded by other surfboards and boogie boards.  In addition to the surfboards and boogie boards, there are several people scattered throughout the scene, some closer to the boy on the surfboard and others further away. Some of the people appear to be wading in the water, while others are standing or sitting on the shore.";
+Q_8: "To what is the string connected that is held by the Man?";
+A_8:{
+A_8_1: "fish";
+A_8_2: "girl";
+A_8_3: "nothing";
+A_8_4: "surf board";
+}};
+
+i_9:{
+C_9: "A tray is filled with a variety of food items, including a hot dog, a hamburger, and onion rings. The hot dog is placed in the center of the tray, while the hamburger is positioned closer to the right side. The onion rings are scattered around the tray, with some closer to the top and others closer to the bottom. The tray is placed on a dining table, ready to be enjoyed by the diners.";
+Q_9: "Where could you get this food?";
+A_9:{
+A_9_1: "fruit vendor";
+A_9_2: "taco truck";
+A_9_3: "starbucks";
+A_9_4: "burger joint";
+}};
+
+i_10:{
+C_10: "The image features a dining table with a red background. On the table, there is a white plate with a delicious-looking crepe or pancake topped with whipped cream and strawberries. A cup of coffee can be seen next to the plate, adding to the breakfast atmosphere. There are two cups on the table, one closer to the left side and the other closer to the right side. Additionally, there are two forks placed on the table, one closer to the left side and the other closer to the right side.";
+Q_10: "What is the name of this dessert?";
+A_10:{
+A_10_1: "rugalach";
+A_10_2: "crepe";
+A_10_3: "blintz";
+A_10_4: "croissant";
+}};
+
+i_11:{
+C_11: "a small kitchen with a white refrigerator and a white microwave oven. The refrigerator is placed near the center of the room, while the microwave is positioned closer to the right side of the kitchen. There are several appliances in the kitchen, including a dishwasher, which is located on the left side of the refrigerator. Additionally, there are two bottles visible in the scene, one on the left side of the kitchen and another on the right side. The kitchen appears to be clean and well-maintained, with all appliances in good working condition.";
+Q_11: "What is on the side of the refrigerator?";
+A_11:{
+A_11_1: "dog";
+A_11_2: "laundry basket";
+A_11_3: "cat";
+A_11_4: "garbage disposal";
+}};
+
+i_12:{
+C_12: "The image depicts a small, cluttered kitchen with a blue dining table in the center. The table is surrounded by various kitchen appliances such as a stove, an oven, a microwave, and a refrigerator. There are several bottles scattered around the kitchen, including one on the counter near the sink and another on top of the refrigerator. In addition to the bottles, there are several cups and bowls placed on the table and countertops. A chair can be seen in the corner of the room, providing seating for someone who may be preparing food or enjoying a meal.";
+Q_12: "What is the object with the metal rod on it?";
+A_12:{
+A_12_1: "radio";
+A_12_2: "coffee maker";
+A_12_3: "tv";
+A_12_4: "microwave";
+}};
+
+i_13:{
+C_13: "There are three horses standing in a dirt field, surrounded by snow. Two of the horses are closer to each other, while the third horse is slightly further away. The horses appear to be grazing or resting in the field, possibly waiting for their next meal.  In the background, there is a fence that separates the horses from the rest of the area. A car can be seen parked on the right side of the image, indicating that people are nearby. Overall, the scene depicts a peaceful and serene atmosphere, with the horses enjoying their time in the snow-covered field.";
+Q_13: "What is the pipe used for in the bottom left corner of the picture?";
+A_13:{
+A_13_1: "drainage";
+A_13_2: "conduit";
+A_13_3: "water pump";
+A_13_4: "gas";
+}};
+
+i_14:{
+C_14: "The image features a young girl wearing a blue baseball uniform and helmet, swinging a pink bat at a baseball. She is standing on a dirt field with a baseball glove in her hand, ready to hit the ball. There are several other people in the scene, some of whom are sitting on benches or standing around the field. One person is closer to the girl, while others are positioned further away from her. In addition to the people, there are several chairs scattered around the field, providing seating for those watching the game. The overall atmosphere is one of excitement and anticipation as the young girl prepares to hit the ball.";
+Q_14: "What should be the weight of cricket ball?";
+A_14:{
+A_14_1: "1.78 ounces";
+A_14_2: "4.25 ounces";
+A_14_3: "3.77 ounces";
+A_14_4: "5.75 ounces";
+}};
+
+i_15:{
+C_15: "There is a beautiful beach scene with several umbrellas and chairs set up on the sand. The umbrellas are colorful and provide shade for those lounging on the beach. In addition to the umbrellas, there are several lawn chairs scattered around the area, creating a cozy atmosphere for people to relax and enjoy their time at the beach. Some of the chairs are closer to the water's edge, while others are positioned further away from the water. A few people can be seen sitting on the chairs, enjoying the sunny day at the beach.";
+Q_15: "Persons using these umbrellas also enjoy what water sport?";
+A_15:{
+A_15_1: "water skiing";
+A_15_2: "chess";
+A_15_3: "body boards";
+A_15_4: "water polo";
+}};
+
+i_16:{
+C_16: "The image depicts a man and a dog sitting on the floor, with the dog wearing a cowboy hat. The man is smiling and appears to be enjoying the company of the dog. There are two chairs in the room, one on the left side of the image and another on the right side. A cup is placed on the left side of the room, close to the first chair. Another cup can be seen on the right side of the room, closer to the second chair. In the background, there is a book placed on a shelf.";
+Q_16: "Who put the hat on the dog?";
+A_16:{
+A_16_1: "woman";
+A_16_2: "cat";
+A_16_3: "dog";
+A_16_4: "man behind";
+}};
+
+i_17:{
+C_17: "A black and white photograph captures a group of people gathered around a man sitting on a motorcycle. The man is wearing a bear costume, making him the center of attention in the scene. There are several cars parked in the area, including a truck, a car, and a pickup truck. Some of the cars are closer to the man on the motorcycle, while others are positioned further away. In addition to the vehicles, there are several other people in the scene, some of whom are standing near the man on the motorcycle, while others are scattered around the area. Overall, the image depicts a group of people enjoying each other's company while the man in the bear costume adds a unique touch to the gathering.";
+Q_17: "Where does the person on the motorcycle usually work?";
+A_17:{
+A_17_1: "fire department";
+A_17_2: "school";
+A_17_3: "circus";
+A_17_4: "corporate office";
+}};
+
+i_18:{
+C_18: "There is a large group of people gathered on a grassy hill, enjoying a sunny day. They are flying a variety of colorful kites in the sky, including several octopus-shaped kites. The kites come in different sizes and designs, adding to the festive atmosphere of the gathering. Some of the kites are closer to the ground, while others are higher up in the sky, creating a vibrant and lively scene. In addition to the kites, there are several handbags scattered around the area, likely belonging to the people participating in the kite-flying event.";
+Q_18: "What do the majority of the floats look like?";
+A_18:{
+A_18_1: "octopus";
+A_18_2: "cat";
+A_18_3: "bear";
+A_18_4: "skunk";
+}};
+
+i_19:{
+C_19: "there is a large red and white train parked on a train track, surrounded by trees. The train appears to be stationary, possibly waiting for its next departure. There are several people visible in the scene, some standing near the train and others further away from it.  In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the individuals present. A truck can also be seen in the background, parked on the side of the train track. Overall, the scene depicts a busy train station with people and vehicles in the vicinity.";
+Q_19: "These walls have a similar color scheme to what place?";
+A_19:{
+A_19_1: "nathan's";
+A_19_2: "arthur treacher's";
+A_19_3: "popeye's";
+A_19_4: "kfc";
+}};
+
+i_20:{
+C_20: "There is a group of people skiing on a snowy slope, with a mountain in the background. The skiers are spread out across the slope, some closer to the mountain while others are further away. A ski lift can be seen in the distance, providing transportation for the skiers up the mountain. In addition to the skiers, there are several backpacks scattered throughout the scene, likely belonging to the skiers as they prepare for their day on the slopes.";
+Q_20: "What movie would this setting fit?";
+A_20:{
+A_20_1: "cliffhanger";
+A_20_2: "phone booth";
+A_20_3: "blade";
+A_20_4: "dumbo";
+}};
+
+i_21:{
+C_21: "there is a large elephant standing in the middle of a lush, green forest. The elephant is surrounded by various trees and foliage, creating a dense and vibrant environment. The elephant's trunk is extended towards the right side of the image, as if it is exploring its surroundings. There are two smaller elephants visible in the scene, one on the left side and another on the right side of the main elephant. These smaller elephants appear to be interacting with the main elephant or exploring their surroundings as well. In addition to the elephants, there are several trees scattered throughout the forest, adding to the lively atmosphere.";
+Q_21: "What are the elephants moving through?";
+A_21:{
+A_21_1: "village";
+A_21_2: "sea";
+A_21_3: "jungle";
+A_21_4: "desert";
+}};
+
+i_22:{
+C_22: "A group of people can be seen enjoying a surfing event in the city. There are several surfers riding on a wave pool, with some of them holding umbrellas to protect themselves from the sun. The wave pool appears to be a popular attraction, as there are multiple surfers participating in the activity.  In addition to the surfers, there are several other people in the scene, some of whom are standing near the edge of the wave pool, while others are further away from the action. Some of the people are carrying umbrellas, possibly to protect themselves from the sun or rain. Overall, it appears to be a lively and enjoyable atmosphere for those participating in or watching the surfing event.";
+Q_22: "What type of area is this event taking place at?";
+A_22:{
+A_22_1: "rural";
+A_22_2: "city";
+A_22_3: "residential";
+A_22_4: "country";
+}};
+
+i_23:{
+C_23: "there are two women standing in a living room, both holding Nintendo Wii remotes. One of the women is wearing a black shirt, while the other is wearing a white shirt. They appear to be enjoying themselves as they engage in a video game together. There are several chairs scattered throughout the room, including one near the left side of the image and another near the right side. A potted plant can also be seen in the background, adding a touch of nature to the scene.";
+Q_23: "Nintendo is manufacturer of what console?";
+A_23:{
+A_23_1: "air pods";
+A_23_2: "remote";
+A_23_3: "wii remote";
+A_23_4: "mobile";
+}};
+
+i_24:{
+C_24: "there are two black cats curled up together on a bed. They are lying close to each other, with one cat resting its head on the other's back. The cats appear to be enjoying each other's company as they cuddle up on the bed. The bed is covered with a blanket, providing a cozy and comfortable environment for the cats to relax.";
+Q_24: "These two black cats are most likely what?";
+A_24:{
+A_24_1: "couple";
+A_24_2: "siblings";
+A_24_3: "strangers";
+A_24_4: "friends";
+}};
+
+i_25:{
+C_25: "The image depicts a bustling city street with a horse-drawn carriage parked in the middle of the road. There are several people gathered around the carriage, likely waiting for a ride or observing the horse-drawn transportation.  In addition to the carriage, there are several other vehicles on the street, including a truck, a car, and a bus. A traffic light can be seen at the corner of the street, indicating the presence of pedestrians and vehicles. Overall, it appears to be a lively and active urban scene.";
+Q_25: "Why is the horse in the town center?";
+A_25:{
+A_25_1: "its shopping";
+A_25_2: "its exercising";
+A_25_3: "its working";
+A_25_4: "its eating";
+}};
+
+i_26:{
+C_26: "A skateboarder is performing an impressive trick, jumping high into the air while riding his skateboard. He is wearing a green shirt and jeans, and his board is visible in the foreground of the image.  In the background, there are several people observing the skateboarder's performance. Some of them are positioned closer to the skateboarder, while others are further away. There is also a car parked on the right side of the image, likely belonging to one of the spectators. The scene captures the excitement and energy of a skateboarding competition or event.";
+Q_26: "What team's hat is the skater wearing?";
+A_26:{
+A_26_1: "mets";
+A_26_2: "rams";
+A_26_3: "yankees";
+A_26_4: "cardinals";
+}};
+
+i_27:{
+C_27: "A black and white photograph captures a park scene where two elderly women are standing near a bench. One of the women is holding a handbag, while the other appears to be admiring a large bird perched on the bench next to them.  There are several other people in the park, including a man standing towards the left side of the image, another man standing towards the right side of the image, and a woman sitting on a bench closer to the center of the scene. In addition to these individuals, there are several other people scattered throughout the park, creating a lively atmosphere. The park seems to be a popular spot for people to gather and enjoy the outdoors.";
+Q_27: "What is the bird on the bench called?";
+A_27:{
+A_27_1: "hawk";
+A_27_2: "flamingo";
+A_27_3: "penguin";
+A_27_4: "stork";
+}};
+
+i_28:{
+C_28: "A kitchen countertop is filled with a variety of wine glasses, each in a different color. Some of the glasses are placed on a towel, while others are scattered around the countertop. There are at least 10 wine glasses visible in the scene, ranging from blue to purple and pink.  In addition to the wine glasses, there is a bottle of wine sitting on the countertop, likely waiting to be poured into the glasses. A knife can also be seen on the countertop, possibly used for cutting or serving the wine.";
+Q_28: "Why are the glasses on a rag next to the sink?";
+A_28:{
+A_28_1: "to sell";
+A_28_2: "for dinner";
+A_28_3: "storage";
+A_28_4: "just washed";
+}};
+
+i_29:{
+C_29: "a woman is walking down a busy city street, talking on her cell phone while holding a cup of coffee. She is surrounded by other pedestrians, some of whom are carrying various items such as handbags, backpacks, and umbrellas. There are several cars parked along the side of the street, adding to the bustling atmosphere. In the background, a traffic light can be seen, signaling the flow of traffic in the area. The scene captures the hustle and bustle of a busy city street, with people going about their daily lives.";
+Q_29: "The parent company of this telephone brand is from what country?";
+A_29:{
+A_29_1: "finland";
+A_29_2: "germany";
+A_29_3: "japan";
+A_29_4: "united states";
+}};
+
+i_30:{
+C_30: "A group of skateboarders is gathered at a skate park, showcasing their skills on various ramps and obstacles. One person is performing a trick on a skateboard, while others are watching and cheering him on. There are several skateboards scattered around the scene, with some closer to the action and others further away.  In addition to the skateboarders, there are several people in the background, observing the skateboarding activity. Some of them are standing near the edge of the skate park, while others are positioned further away from the action. Overall, the scene depicts a lively and energetic atmosphere at the skate park, with skateboarders engaging in various tricks and stunts.";
+Q_30: "How long until the man lands?";
+A_30:{
+A_30_1: "minutes";
+A_30_2: "days";
+A_30_3: "hours";
+A_30_4: "seconds";
+}};
+
+i_31:{
+C_31: "a luxurious bathroom with two sinks, a bathtub, and a window overlooking the city. The bathroom is spacious and well-appointed, with two sinks placed side-by-side on the counter. A large bathtub takes up a significant portion of the room, providing ample space for relaxation.  There are several bottles scattered throughout the bathroom, likely containing various bathroom essentials such as soaps, shampoos, or other toiletries. In addition to the bottles, there is a handbag placed near one of the sinks. Overall, the bathroom exudes a sense of luxury and comfort, making it an ideal place to unwind after a long day.";
+Q_31: "What object can be seen underneath one of the restroom sinks?";
+A_31:{
+A_31_1: "basket";
+A_31_2: "scale";
+A_31_3: "rack";
+A_31_4: "cabinet";
+}};
+
+i_32:{
+C_32: "A train is parked at a train station platform, waiting for passengers to board. The train is a silver one with a blue stripe on the side, and it appears to be a commuter train. There are several people visible in the scene, some standing near the train and others walking along the platform.  In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the passengers waiting for their transportation. A traffic light can also be seen in the background, indicating the presence of other vehicles in the area. Overall, the scene depicts a bustling train station during the day.";
+Q_32: "What number on the train is divisible by 7?";
+A_32:{
+A_32_1: "seven";
+A_32_2: "14";
+A_32_3: "28";
+A_32_4: "56";
+}};
+
+i_33:{
+C_33: "There is a red garbage truck driving down a city street, with a man standing next to it. The truck is parked on the side of the road, and the man appears to be preparing to load waste into the back of the truck. There are several cars visible in the scene, some parked on the side of the street and others driving by. A traffic light can be seen in the distance, indicating the presence of other vehicles on the road.";
+Q_33: "What is being gathered by this vehicle?";
+A_33:{
+A_33_1: "paper";
+A_33_2: "children";
+A_33_3: "ice cream";
+A_33_4: "garbage";
+}};
+
+i_34:{
+C_34: "The image depicts a snowy city street with several cars parked along the side of the road. A traffic light can be seen near the center of the scene, indicating the presence of pedestrians and vehicles in the area.  There are multiple cars visible in the scene, some parked on the side of the road and others driving down the street. In addition to the cars, there is a truck positioned towards the left side of the image, likely delivering goods or services to the area. The snowy weather adds to the wintery atmosphere of the scene.";
+Q_34: "Which one of these months is possible?";
+A_34:{
+A_34_1: "july";
+A_34_2: "august";
+A_34_3: "june";
+A_34_4: "december";
+}};
+
+i_35:{
+C_35: "There is a small brown horse standing on a dirt ground next to a wooden fence. The horse has a black mane and tail, and its body is positioned towards the right side of the image. There are two other horses visible in the scene, one on the left side and another on the right side of the fence. Both horses are smaller in size compared to the main brown horse. In addition to the horses, there are several potted plants scattered throughout the scene. One plant can be seen on the left side of the image, while another is situated on the right side. A bicycle is also present near the fence, likely belonging to one of the horse owners or caretakers.";
+Q_35: "What type of horse is this?";
+A_35:{
+A_35_1: "arabian";
+A_35_2: "shetland pony";
+A_35_3: "clydesdale";
+A_35_4: "mustang";
+}};
+
+i_36:{
+C_36: "two baseball players are standing on a baseball field, one wearing a red jersey and the other wearing a white jersey. The red-jerseyed player appears to be preparing to pitch the ball, while the white-jerseyed player is positioned near the mound, possibly waiting for the pitch. There are several baseballs scattered around the field, including one close to the red-jerseyed player and another closer to the white-jerseyed player. In the background, there is a baseball glove placed on the ground, possibly belonging to one of the players. Overall, the scene depicts an intense moment in a baseball game, with both players focused on their respective tasks.";
+Q_36: "What is the player in red doing?";
+A_36:{
+A_36_1: "running";
+A_36_2: "celebrating";
+A_36_3: "hitting";
+A_36_4: "cleaning mound";
+}};
+
+i_37:{
+C_37: "A vintage black and white photograph captures a group of people rowing a long canoe on a body of water. The canoe is filled with at least 10 people, each holding an oar in their hands. Some of the oars are positioned closer to the front of the canoe, while others are further back, indicating that the rowers are spread out along the length of the boat. The scene appears to be a team effort, with everyone working together to propel the canoe through the water.";
+Q_37: "What is the person standing here keeping?";
+A_37:{
+A_37_1: "lunch";
+A_37_2: "pace";
+A_37_3: "shark watch";
+A_37_4: "nothing";
+}};
+
+i_38:{
+C_38: "The image depicts a busy train yard with several trains parked on the tracks. There are three trains visible in the scene, including two black trains and one red train. The trains are parked in various locations along the tracks, some closer to each other and some farther apart.  In addition to the trains, there are several trucks scattered throughout the scene. Two trucks can be seen in the foreground, one on the left side and another on the right side of the image. A third truck is positioned further away from the other two, closer to the center of the train yard. There is also a person standing on the left side of the image, possibly overseeing the activity in the train yard. Overall, the scene showcases a bustling train yard with multiple trains and trucks in operation.";
+Q_38: "What infrastructure is necessary for the transportation here to move?";
+A_38:{
+A_38_1: "roads";
+A_38_2: "train tracks";
+A_38_3: "taxis";
+A_38_4: "airports";
+}};
+
+i_39:{
+C_39: "a group of people are walking on a sidewalk in front of a building. There are several people in the scene, with one person standing closer to the left side of the image and another person standing closer to the right side of the image. A third person can be seen in the middle of the sidewalk. In addition to these three individuals, there are two more people further down the sidewalk, one on the left and one on the right side of the image. There is also a handbag placed on the sidewalk, likely belonging to one of the people in the scene. Overall, the scene depicts a group of people walking along a sidewalk in front of a building.";
+Q_39: "The man in blue is in what?";
+A_39:{
+A_39_1: "trouble";
+A_39_2: "church";
+A_39_3: "motion";
+A_39_4: "dmv";
+}};
+
+i_40:{
+C_40: "there is a group of people riding on an elephant through a lush, green forest. The elephant is surrounded by trees and foliage, creating a serene and peaceful environment for the riders. There are two people sitting on the elephant's back, one on the left side and the other on the right side. They appear to be enjoying the ride as they take in the sights and sounds of their surroundings. In the background, there are various trees and bushes scattered throughout the forest, adding to the natural beauty of the scene.";
+Q_40: "What is near the elephant?";
+A_40:{
+A_40_1: "dog";
+A_40_2: "cow";
+A_40_3: "people";
+A_40_4: "cat";
+}};
+
+i_41:{
+C_41: "Three young children are gathered around a dining table, enjoying a meal together. There are two boys and one girl sitting at the table, each with a bowl of food in front of them. They seem to be having a good time, laughing and interacting with each other. The table is covered with a colorful tablecloth, adding a festive touch to the scene. In the background, there is a chair placed near the table, possibly belonging to one of the children's parents or another family member. A potted plant can be seen on the left side of the image, adding a touch of greenery to the room. Overall, it appears to be a cozy and enjoyable family gathering.";
+Q_41: "What are the children making?";
+A_41:{
+A_41_1: "muffins";
+A_41_2: "live bunny";
+A_41_3: "teddy bear";
+A_41_4: "cake";
+}};
+
+i_42:{
+C_42: "a cluttered desk is filled with various electronics, including two laptops, a keyboard, and a mouse. One of the laptops is on the left side of the desk, while the other is on the right side. The keyboard is placed in between the two laptops, and a mouse can be seen on the right side of the desk. There are also several bottles scattered around the desk, likely used for various purposes. In addition to the electronics and bottles, there are several books on the desk as well.";
+Q_42: "What type of phone can this person use at the desk?";
+A_42:{
+A_42_1: "cellular";
+A_42_2: "landline";
+A_42_3: "payphone";
+A_42_4: "rotary";
+}};
+
+i_43:{
+C_43: "there is a red trolley car sitting on top of a set of stairs in a building. The trolley car is parked at the top of the stairs and appears to be waiting for passengers to board or disembark. There are several people visible in the scene, with one person standing near the bottom of the stairs and another person standing near the top of the stairs. Additionally, there are two handbags scattered throughout the scene, one near the bottom of the stairs and the other near the top of the stairs.";
+Q_43: "What mountain range might be seen from this vehicle?";
+A_43:{
+A_43_1: "appalachian mountains";
+A_43_2: "swiss alps";
+A_43_3: "sierra nevadas";
+A_43_4: "rocky mountains";
+}};
+
+i_44:{
+C_44: "The image depicts a large herd of zebras gathered near a body of water, likely a river or stream. The zebras are spread out across the scene, with some closer to the water and others further away. They appear to be grazing and drinking from the water source.  In the background, there is a small group of birds perched on a tree branch, possibly observing the zebras. Overall, the scene captures a peaceful moment in the wild, with the zebras and birds coexisting in their natural habitat.";
+Q_44: "How many birds are standing inside of the river with the zebras on the island?";
+A_44:{
+A_44_1: "three";
+A_44_2: "four";
+A_44_3: "two";
+A_44_4: "one";
+}};
+
+i_45:{
+C_45: "a skateboarder is performing an impressive trick on his skateboard, jumping high into the air. The skateboarder is wearing colorful socks and has a tattoo on his arm. There are several other people in the scene, watching the skateboarder perform his tricks. Some of them are standing close to the skateboarder, while others are positioned further away from the action. In the background, there is a car parked on the side of the street, adding to the urban atmosphere of the scene.";
+Q_45: "What will happen to the skateboard next?";
+A_45:{
+A_45_1: "roll forward";
+A_45_2: "pop upward";
+A_45_3: "lost";
+A_45_4: "break";
+}};
+
+i_46:{
+C_46: "A man is sitting at a picnic table in a grassy field. He is wearing a black shirt and appears to be enjoying the outdoor setting. The picnic table is situated near a body of water, possibly a river or a lake. There are several trees scattered throughout the scene, adding to the serene atmosphere.  In addition to the man and the picnic table, there are two other people visible in the image. One person is positioned on the left side of the scene, while the other person is located on the right side. Both individuals appear to be relaxing and enjoying the surroundings.";
+Q_46: "What cloth item hangs next to the man?";
+A_46:{
+A_46_1: "tablecloth";
+A_46_2: "banner";
+A_46_3: "curtain";
+A_46_4: "poster";
+}};
+
+i_47:{
+C_47: "A group of young boys are playing a game of soccer on a grassy field. They are actively engaged in the game, with one boy wearing a yellow shirt and another wearing a blue shirt. The boys are competing for possession of the soccer ball, which is located in the middle of the field.  There are several people watching the game from the sidelines, likely parents or other spectators. Some of them are positioned closer to the action, while others are further away, providing a sense of perspective to the scene. Overall, it appears to be a lively and engaging game of soccer between the young players.";
+Q_47: "What sort of job is the man standing in yellow doing?";
+A_47:{
+A_47_1: "secret shopper";
+A_47_2: "game official";
+A_47_3: "cheer leader";
+A_47_4: "field worker";
+}};
+
+i_48:{
+C_48: "a man is standing in a kitchen with an open oven. He is looking inside the oven, possibly checking to see if something is cooking or if he needs to take it out. The oven is located on the left side of the kitchen, and the man's attention is focused on it.  In addition to the man and the oven, there are several other objects present in the scene. A bowl can be seen on the right side of the kitchen, close to the man's position. Another bowl is situated on the left side of the kitchen, closer to the oven. There are also two cups placed on the countertop, one on the left side and the other on the right side of the kitchen.";
+Q_48: "What does the light from the appliance with a door best let you see?";
+A_48:{
+A_48_1: "baking food";
+A_48_2: "freezing food";
+A_48_3: "coffee";
+A_48_4: "plates";
+}};
+
+i_49:{
+C_49: "The image features a white plate with a hot dog and broccoli on it, placed on a dining table. The hot dog is topped with various vegetables, making it a healthy and delicious meal option. The broccoli is arranged around the hot dog, creating a visually appealing presentation.  In addition to the hot dog and broccoli, there are several utensils on the table, including two forks, a knife, and a spoon. A bottle of water can also be seen on the table, adding to the dining experience.";
+Q_49: "What is on the left of the plate?";
+A_49:{
+A_49_1: "eggs";
+A_49_2: "apple";
+A_49_3: "broccoli";
+A_49_4: "pumpkin";
+}};
+
+i_50:{
+C_50: "A man wearing sunglasses is swinging a baseball bat at a ball in a fenced-in area. He appears to be practicing his batting skills, possibly preparing for an upcoming game. There are several chairs scattered throughout the scene, suggesting that there may be spectators watching the man's performance.  In addition to the man and the baseball bat, there are two other people visible in the scene. One person is standing on the left side of the image, while the other person is located on the right side. Both individuals appear to be observing the man's actions.";
+Q_50: "What was this man hitting with his bat?";
+A_50:{
+A_50_1: "invader";
+A_50_2: "volleyball";
+A_50_3: "enemy";
+A_50_4: "baseball";
+}};
+
+i_51:{
+C_51: "a group of women are posing for a photo in front of an office desk. They are all wearing ties and smiling at the camera, creating a friendly and welcoming atmosphere. There are several people in the image, with some standing closer to the desk while others are positioned further away from it. In total, there are 12 people in the scene, making it a lively and social gathering. The desk is placed in the center of the room, providing a focal point for the group's photo.";
+Q_51: "What is unusual about their outfits?";
+A_51:{
+A_51_1: "pants";
+A_51_2: "shirts";
+A_51_3: "material";
+A_51_4: "ties";
+}};
+
+i_52:{
+C_52: "a person is lounging in their bedroom, with their feet propped up on a wooden ladder. The ladder is positioned near a window, providing a scenic view of the outdoors. In the room, there are several items scattered around, including a bowl, a cup, and a bottle. A chair can be seen in the corner of the room, likely used for relaxation or as a place to sit while enjoying the view from the ladder. The room appears to be well-organized, with a sense of coziness and comfort for the person resting on the ladder.";
+Q_52: "What part of the person's body is showing?";
+A_52:{
+A_52_1: "feet";
+A_52_2: "head";
+A_52_3: "nose";
+A_52_4: "arm";
+}};
+
+i_53:{
+C_53: "a small bathroom with a toilet, sink, and shower. The bathroom features a blue and white striped shower curtain hanging over the shower area. The sink is placed next to the toilet, and there are multiple bottles scattered around the room. One bottle can be seen on the left side of the sink, while another is located on the right side of the sink. A third bottle is positioned closer to the center of the room, near the toilet. In addition to the bottles, there are two cups in the bathroom, one on the left side of the sink and another on the right side of the sink. Overall, the bathroom appears to be clean and well-maintained.";
+Q_53: "What is in the can on the counter?";
+A_53:{
+A_53_1: "fake tan";
+A_53_2: "paint";
+A_53_3: "air freshener";
+A_53_4: "hairspray";
+}};
+
+i_54:{
+C_54: "there is a man sitting on one of the beds in a hotel room, working on his laptop. He appears to be comfortable and relaxed as he focuses on his work. The room is well-lit, with multiple lamps illuminating the space. There are two beds in the room, both of which are neatly made up. A chair can be seen in the corner of the room, providing additional seating for the man or anyone else who might visit the room. In addition to the furniture, there are several items scattered around the room, including a suitcase, a backpack, and a handbag. The overall atmosphere of the room is cozy and inviting, making it an ideal place for the man to work and relax.";
+Q_54: "How many metallic squares encapsulate the mirror in the hotel wall?";
+A_54:{
+A_54_1: "five";
+A_54_2: "two";
+A_54_3: "three";
+A_54_4: "four";
+}};
+
+i_55:{
+C_55: "there is a group of people sitting on the floor in a living room, playing a video game together. There are three adults and two children involved in the gaming session. The adults are sitting close to each other, while the children are positioned slightly further away from the adults.  In addition to the video game controllers, there are several chairs scattered around the room, providing seating options for the players. A guitar can be seen in the background, possibly belonging to one of the players or as a decorative item in the room. A bowl is also present on the floor, possibly used for snacks or other purposes during the gaming session. Overall, it appears to be a fun and engaging activity for everyone involved.";
+Q_55: "How many game players are there?";
+A_55:{
+A_55_1: "one";
+A_55_2: "two";
+A_55_3: "three";
+A_55_4: "four";
+}};
+
+i_56:{
+C_56: "a large industrial kitchen is filled with stainless steel pots, pans, and utensils. There are multiple pots and pans of various sizes scattered throughout the room, as well as a variety of utensils such as knives, forks, and spoons. The kitchen appears to be well-equipped for cooking and preparing meals. In addition to the cooking equipment, there are several bowls placed around the room, likely used for serving or storing ingredients. Overall, the scene depicts a functional and well-appointed commercial kitchen.";
+Q_56: "What type of company most likely uses this location?";
+A_56:{
+A_56_1: "brewing";
+A_56_2: "dairy";
+A_56_3: "catering";
+A_56_4: "manufacturing";
+}};
+
+i_57:{
+C_57: "A female tennis player is standing on a clay tennis court, ready to play a game. She is wearing a white shirt and a green skirt, and is holding a tennis racket in her right hand. Her opponent can be seen in the background, possibly preparing to serve the ball.  In addition to the two tennis players, there are two other people visible in the scene. One person is located on the left side of the court, while the other person is on the right side. Both individuals appear to be watching the game from a distance. There is also a chair placed on the left side of the court, possibly belonging to one of the spectators.";
+Q_57: "What is she ready to do?";
+A_57:{
+A_57_1: "swing";
+A_57_2: "sit";
+A_57_3: "swim";
+A_57_4: "eat";
+}};
+
+i_58:{
+C_58: "The image depicts an old-fashioned bathroom with a clawfoot bathtub in the center of the room. The bathtub is surrounded by a purple couch, which appears to be the focal point of the space. There are two chairs placed near the couch, one on the left and another on the right side of the room. A clock can be seen hanging on the wall above the bathtub, adding a touch of elegance to the setting. In addition to the furniture, there are several objects scattered around the room, including a bowl, a cup, and a bottle. The overall atmosphere of the room is cozy and inviting, with a mix of vintage and modern elements.";
+Q_58: "Why is the floor tiled?";
+A_58:{
+A_58_1: "sun";
+A_58_2: "look";
+A_58_3: "water";
+A_58_4: "feel";
+}};
+
+i_59:{
+C_59: "there is a wooden bench placed on the sidewalk of a city street. The bench is positioned in the middle of the sidewalk, providing a comfortable seating area for people to rest and take a break from their daily activities. There are several people visible in the scene, some standing near the bench and others walking along the sidewalk. One person is closer to the bench, while others are further away. A few handbags can be seen scattered around the area, possibly belonging to some of the people passing by. Overall, it appears to be a peaceful and inviting spot for people to relax and enjoy their surroundings.";
+Q_59: "This bench is located where?";
+A_59:{
+A_59_1: "ocean front";
+A_59_2: "city sidewalk";
+A_59_3: "mall";
+A_59_4: "park";
+}};
+
+i_60:{
+C_60: "A group of people is gathered around an animal that has been slaughtered on the sidewalk. The animal appears to be a sheep or goat, and it is lying on the ground with its blood spilling out. There are several people standing around the animal, observing the scene and possibly participating in the slaughtering process. Some of the people are closer to the animal, while others are positioned further away. A chair can be seen in the background, possibly belonging to one of the spectators. In addition to the people, there are several chairs scattered around the area, providing seating for those who have come to witness the event.";
+Q_60: "Which culture has this custom?";
+A_60:{
+A_60_1: "scotland";
+A_60_2: "iraq";
+A_60_3: "india";
+A_60_4: "iran";
+}};
+
+i_61:{
+C_61: "A lively parade is taking place in the city, with a group of people gathered on the street. The parade features a variety of colorful floats, including one with a giant head and another with a pair of shoes. There are several people in the crowd, some standing near the floats and others scattered throughout the scene.  In addition to the people, there are several cars parked along the street, likely belonging to those attending the parade or participating in it. A traffic light can be seen at the end of the street, indicating that the parade is taking place in a busy area. Overall, the scene is filled with vibrant colors and lively energy, showcasing the joy and excitement of the parade.";
+Q_61: "What objects are being advertised on a billboard?";
+A_61:{
+A_61_1: "phones";
+A_61_2: "bones";
+A_61_3: "scones";
+A_61_4: "cones";
+}};
+
+i_62:{
+C_62: "A bustling city street is filled with a large group of people gathered around several motorcycles parked on the sidewalk. There are at least 15 motorcycles in the scene, some of which are parked closer to each other, while others are further apart. The crowd of people is diverse, with individuals of different ages and genders standing around the motorcycles, chatting and enjoying the atmosphere. Some of the motorcycles appear to be vintage models, adding to the nostalgic feel of the scene. In addition to the motorcycles, there are several handbags scattered throughout the area, likely belonging to the people attending the event. Overall, the image captures a lively gathering of people and motorcycles in a bustling city setting.";
+Q_62: "What event is happening here?";
+A_62:{
+A_62_1: "motorcycle parade";
+A_62_2: "car race";
+A_62_3: "car show";
+A_62_4: "car sale";
+}};
+
+i_63:{
+C_63: "a group of men are gathered around a kitchen counter, cooking and preparing food together. There are four men in the scene, each wearing an apron, and they appear to be enjoying the process of preparing their meal. A bowl can be seen on the counter, likely containing ingredients for the dish they are preparing. In addition to the bowl, there is another bowl located closer to the left side of the image. There are also two cups placed on the counter, possibly used for serving or drinking during the cooking process. A potted plant can be seen in the background, adding a touch of greenery to the scene. Overall, the group of men appears to be having a fun and enjoyable time as they work together to prepare their meal.";
+Q_63: "What do these people do here?";
+A_63:{
+A_63_1: "sing";
+A_63_2: "watch youtube";
+A_63_3: "watch tv";
+A_63_4: "cook";
+}};
+
+i_64:{
+C_64: "a well-dressed man with glasses is sitting on a chair, wearing a pink shirt and a vest. He is smiling and appears to be enjoying his surroundings. There are several trees visible in the background, adding a natural touch to the scene. In addition to the man, there are two other people present in the image. One person is located towards the left side of the image, while the other person is situated closer to the right side. Both individuals are wearing casual clothing and appear to be relaxing in the outdoor setting.";
+Q_64: "Why is he smiling?";
+A_64:{
+A_64_1: "is surprised";
+A_64_2: "for camera";
+A_64_3: "won money";
+A_64_4: "is friendly";
+}};
+
+i_65:{
+C_65: "a group of police officers are riding horses down a city street. There are several horses in the scene, with some positioned closer to the left side of the image and others towards the right side. The police officers are wearing blue uniforms and helmets, indicating that they are part of a law enforcement team. They appear to be patrolling the area, possibly during a parade or other public event. In addition to the mounted police officers, there is a car parked on the side of the street, likely belonging to one of the officers or providing transportation for them. Overall, the scene depicts a group of law enforcement officers on horseback patrolling a city street.";
+Q_65: "Why are the people wearing blue outfit?";
+A_65:{
+A_65_1: "visibility";
+A_65_2: "dress code";
+A_65_3: "uniform";
+A_65_4: "fashion";
+}};
+
+i_66:{
+C_66: "A group of young people are gathered at a skate park, enjoying their time on the skateboards. There are several skateboards visible in the scene, with one person riding a skateboard in the foreground. The other skateboarders are scattered throughout the area, some closer to the camera while others are further away.  In addition to the skateboards, there are several backpacks present in the scene. Some of the backpacks are placed close to the skateboarders, while others are more spread out, indicating that they may belong to other people in the area. Overall, the scene captures a lively and active atmosphere at the skate park, with both skateboarders and backpacks adding to the vibrancy of the setting.";
+Q_66: "What type of event is happening here?";
+A_66:{
+A_66_1: "rodeo";
+A_66_2: "dog show";
+A_66_3: "movie";
+A_66_4: "skateboard expo";
+}};
+
+i_67:{
+C_67: "there is a young girl standing on a tennis court, holding a tennis racket in her right hand. She is preparing to hit a tennis ball with the racket, which is positioned close to her right side. The girl is wearing a white shirt and black shorts, and she appears to be focused on her tennis game.  In the background, there are several other tennis balls scattered around the court, suggesting that the girl is practicing or playing a game with others. There are also two chairs placed near the edge of the court, possibly for spectators or players to rest during the game. Overall, the scene depicts a young girl engaging in a fun and active tennis game.";
+Q_67: "What color is the edge of the tennis racket the little girl is using to practice tennis?";
+A_67:{
+A_67_1: "red";
+A_67_2: "black";
+A_67_3: "green";
+A_67_4: "blue";
+}};
+
+i_68:{
+C_68: "Three chefs are working together in a kitchen, preparing vegetables for a meal. They are wearing white hats and aprons, indicating that they are professionals in the culinary field. There are two women and one man involved in the cooking process, each with their own set of knives. One of the women is closer to the left side of the image, while the other woman is situated on the right side. The man is positioned in the middle of the group. In addition to the knives, there are several bowls scattered around the kitchen, likely containing ingredients for the dish they are preparing. A cup can be seen on the left side of the image, possibly used for drinks during the cooking process. Overall, the scene depicts a team of skilled chefs working together to create a delicious meal.";
+Q_68: "The hats signify their status as what?";
+A_68:{
+A_68_1: "thieves";
+A_68_2: "dancers";
+A_68_3: "lawyers";
+A_68_4: "chefs";
+}};
+
+i_69:{
+C_69: "a man is holding a teddy bear while singing into a microphone on stage. He is surrounded by a group of people, some of whom are listening attentively to his performance. In the background, there is another person holding a cell phone, possibly capturing the moment on video or taking a selfie. The stage appears to be well-lit, with multiple lights illuminating the area. The atmosphere is lively and energetic, as the performer engages the audience with his singing and the teddy bear adds a touch of playfulness to the scene.";
+Q_69: "What is the red thing held by the man?";
+A_69:{
+A_69_1: "remote";
+A_69_2: "water bottle";
+A_69_3: "microphone";
+A_69_4: "whistle";
+}};
+
+i_70:{
+C_70: "a bustling city street is filled with pedestrians and bicyclists, creating a lively atmosphere. A large building can be seen in the background, possibly serving as a landmark for the area. There are several people scattered throughout the scene, some walking and others riding bicycles.  In addition to the pedestrians and bicyclists, there are two cars parked on the side of the street. One car is closer to the front of the scene, while the other is positioned further back. A traffic light can be seen in the middle of the street, guiding the pedestrians and bicyclists safely through the area. Overall, the scene captures the hustle and bustle of a busy city street.";
+Q_70: "What actress was born in this country?";
+A_70:{
+A_70_1: "jennifer connelly";
+A_70_2: "adele haenel";
+A_70_3: "margaret qualley";
+A_70_4: "brooke shields";
+}};
+
+i_71:{
+C_71: "Three dogs are standing under an umbrella at a farmer's market. Two of the dogs are on leashes, while the third one appears to be off-leash. The market is filled with various fruits, vegetables, and other items for sale. There are multiple people in the scene, some of whom are carrying bags or wearing backpacks. A handbag can be seen near the left side of the image, and another handbag is positioned closer to the center of the scene. In addition to the handbags, there is a car visible in the background, possibly belonging to one of the market patrons.";
+Q_71: "What type of vegetables are shown?";
+A_71:{
+A_71_1: "fruit";
+A_71_2: "berries";
+A_71_3: "roots";
+A_71_4: "flowers";
+}};
+
+i_72:{
+C_72: "There is a large group of people gathered at a ski resort on a snowy day. They are wearing various types of skis and snowboards, indicating that they are preparing to go skiing or snowboarding. The group is spread out across the snowy terrain, with some individuals standing closer to each other while others are positioned further away. In total, there are at least 15 people in the scene, enjoying the winter weather and getting ready to hit the slopes.";
+Q_72: "Which weather phenomenon is likely to be most frustrating to people seen here at this place?";
+A_72:{
+A_72_1: "hard freeze";
+A_72_2: "snow";
+A_72_3: "heat wave";
+A_72_4: "cool wind";
+}};
+
+i_73:{
+C_73: "The image depicts a blue and white passenger train traveling down a set of railroad tracks. The train is surrounded by several other trains on the same track, indicating that it is part of a train yard or station. There are at least six trains visible in the scene, with some closer to the camera and others farther away.  In addition to the trains, there are several people scattered throughout the scene. Two people can be seen standing on the left side of the image, while another person is positioned on the right side. There may be more people in the scene, but they are less visible due to the focus on the trains and their surroundings. Overall, the image captures a bustling train yard with multiple trains moving along the tracks.";
+Q_73: "What is the name of the painting on the outside of the blue train?";
+A_73:{
+A_73_1: "fine art";
+A_73_2: "acrylic";
+A_73_3: "graffiti";
+A_73_4: "oil";
+}};
+
+i_74:{
+C_74: "A vibrant and colorful display of umbrellas is showcased in a clothing store. The umbrellas are arranged in a unique and eye-catching way, making them the centerpiece of the store. There are multiple umbrellas of different colors and sizes, creating a lively atmosphere for customers to browse through. Some of the umbrellas are positioned closer to the front of the store, while others are placed further back, adding depth to the display. In addition to the umbrellas, there are several clothing items visible in the store, including shirts, pants, and shoes. A person can be seen standing near the umbrella display, possibly admiring the colorful assortment or browsing through the clothing options.";
+Q_74: "This shop is situated in which country?";
+A_74:{
+A_74_1: "france";
+A_74_2: "netherlands";
+A_74_3: "britain";
+A_74_4: "italy";
+}};
+
+i_75:{
+C_75: "Three people are standing on the side of a busy city street. They are wearing black jackets and helmets, indicating that they are motorcycle enthusiasts. There are two motorcycles parked on the side of the street, with one closer to the left side and the other closer to the right side.  In addition to the motorcycles, there are several other vehicles in the scene, including a car, a truck, and a bus. Some of these vehicles are parked on the street, while others are moving along the road. There are also several handbags scattered throughout the scene, likely belonging to the people standing on the street.";
+Q_75: "In what group are the people with Black Racing jackets?";
+A_75:{
+A_75_1: "school class";
+A_75_2: "family";
+A_75_3: "club";
+A_75_4: "volunteers";
+}};
+
+i_76:{
+C_76: "A group of people are enjoying a day at the beach, engaging in various water activities. They are parasailing in the ocean, with multiple parasails visible in the sky. Some of the parasails are closer to the shore, while others are further out in the water. In addition to the parasailing, there are several surfers in the water, riding the waves and enjoying the ocean breeze. Overall, the scene showcases a vibrant and lively atmosphere as people engage in various water sports.";
+Q_76: "If a boat was responsible for their momentum the sport would be called what?";
+A_76:{
+A_76_1: "paddle boarding";
+A_76_2: "water skiing";
+A_76_3: "sky diving";
+A_76_4: "bungee jumping";
+}};
+
+i_77:{
+C_77: "a couple is sitting on a bench in front of a lighthouse at night. The lighthouse is illuminated, casting a warm and inviting glow over the area. The couple is enjoying the serene atmosphere as they sit on the bench, taking in the beauty of the lighthouse and the surrounding water.  In addition to the couple, there are several other people visible in the scene. One person is standing towards the left side of the image, while another person is closer to the right side. There are also two more people further away from the lighthouse, one on the left side and the other on the right side of the image. Overall, the scene radiates a peaceful and romantic ambiance, capturing the essence of a relaxing evening by the water.";
+Q_77: "What material is the lighthouse made from?";
+A_77:{
+A_77_1: "brick";
+A_77_2: "metal";
+A_77_3: "wood";
+A_77_4: "stone";
+}};
+
+i_78:{
+C_78: "There are three giraffes standing in a dirt area near a fence. Two of the giraffes are close to each other, while the third giraffe is slightly further away. In addition to the giraffes, there are several ducks present in the scene. The ducks are scattered around the area, some closer to the giraffes and others further away. A few trees can be seen in the background, providing shade for the animals. Overall, the scene depicts a group of giraffes and ducks interacting in their enclosure.";
+Q_78: "What animals legs are closest to the ground here?";
+A_78:{
+A_78_1: "birds";
+A_78_2: "pigs";
+A_78_3: "bears";
+A_78_4: "giraffes";
+}};
+
+i_79:{
+C_79: "A group of people is gathered around an old red and black locomotive on a train track. The train is parked on the tracks, and there are several people standing near it, admiring the vintage train. Some of the people are closer to the front of the train, while others are positioned further back.  In addition to the people, there are two handbags visible in the scene. One handbag is placed near the left side of the train, while the other is situated closer to the right side of the train. There is also a person holding a cell phone in the scene, possibly capturing the moment or communicating with others.";
+Q_79: "Why is the man wearing an orange vest?";
+A_79:{
+A_79_1: "warmth";
+A_79_2: "fashion";
+A_79_3: "protection";
+A_79_4: "visibility";
+}};
+
+i_80:{
+C_80: "the train station is located in a mountainous area, with a green and white train parked at the platform. The train appears to be waiting for passengers to board or disembark. There are several people visible in the scene, some standing near the train and others further away from it. In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the passengers. The overall atmosphere of the scene is peaceful and serene, with the mountainous backdrop providing a picturesque setting for the train station.";
+Q_80: "What will this vehicle be traveling on?";
+A_80:{
+A_80_1: "roads";
+A_80_2: "rails";
+A_80_3: "air";
+A_80_4: "wooden blocks";
+}};
+
+i_81:{
+C_81: "A group of people are gathered around a dining table, enjoying a meal together. The table is set with various dishes and utensils, including plates, bowls, cups, and wine glasses. There are two wine glasses placed on the table, one closer to the left side and the other closer to the right side.  In addition to the food and drinks, there are several bottles scattered around the table. One bottle is positioned near the center of the table, while another is located closer to the right side. There are also two knives placed on the table, one closer to the left side and the other closer to the right side. Overall, the scene depicts a cozy and enjoyable meal shared among friends.";
+Q_81: "The shiny bottle with white label was used to serve what?";
+A_81:{
+A_81_1: "beer";
+A_81_2: "cocktails";
+A_81_3: "aperitif";
+A_81_4: "wine";
+}};
+
+i_82:{
+C_82: "A beautiful young woman in a yellow bikini is standing on the beach, holding a white and blue surfboard. She appears to be preparing for a surfing session or enjoying her time at the beach. The surfboard is positioned close to the woman's feet, indicating that she is ready to hit the waves.  In the background, there are several other people visible on the beach, some closer to the woman and others further away. They appear to be engaging in various activities, such as sunbathing, swimming, or simply enjoying the scenery.";
+Q_82: "Where has this person been most recently?";
+A_82:{
+A_82_1: "inland";
+A_82_2: "water";
+A_82_3: "undersea";
+A_82_4: "air";
+}};
+
+i_83:{
+C_83: "A person is cutting a cake on a dining table. The cake is placed on a glass cake stand, and the person is holding a knife to slice it. The cake appears to be a bundt cake, which is a type of cake with a cylindrical shape and a distinctive hole in the center. There are several other objects on the table, including two cups, a bowl, and a bottle. The scene suggests that the person is preparing to serve or share the cake with others.";
+Q_83: "What type of cake is this?";
+A_83:{
+A_83_1: "garash cake";
+A_83_2: "circle cake";
+A_83_3: "cupcake";
+A_83_4: "bondt cake";
+}};
+
+i_84:{
+C_84: "a person is wearing a large red costume, resembling a cockroach, and holding a cell phone to their ear. They are standing in the middle of a busy street, surrounded by other people, some of whom are also holding cell phones. There are several cars visible in the background, adding to the bustling atmosphere of the scene. The person wearing the cockroach costume appears to be engrossed in their conversation on the phone, possibly enjoying the attention they are getting from the other people around them.";
+Q_84: "What property does the black part of the costume have?";
+A_84:{
+A_84_1: "sun proof";
+A_84_2: "cold resistant";
+A_84_3: "breathable";
+A_84_4: "waterproof";
+}};
+
+i_85:{
+C_85: "A group of skateboarders is gathered at a skate park, enjoying the day and practicing their skills. There are several skateboarders in the scene, with some riding on ramps and others performing tricks on the ground. The skateboarders range in age and skill level, showcasing the diversity of skateboarding enthusiasts.  In addition to the skateboarders, there are several benches scattered around the park, providing seating options for those who want to take a break or watch the skateboarders in action. A few cars can be seen in the background, possibly belonging to the skateboarders or visitors to the park. Overall, the scene captures the lively atmosphere of a skate park on a sunny day.";
+Q_85: "What is the vessel called that's parked in the harbor?";
+A_85:{
+A_85_1: "ferry";
+A_85_2: "cruise ship";
+A_85_3: "battleship";
+A_85_4: "cargo ship";
+}};
+
+i_86:{
+C_86: "Two young boys are skateboarding and riding bicycles at a skate park. One boy is riding a skateboard, while the other is riding a bicycle. Both boys are wearing helmets, indicating that they are taking safety precautions while enjoying their time at the skate park. There are several chairs scattered throughout the scene, possibly belonging to spectators or park visitors. In addition to the skateboard and bicycle, there are two backpacks visible in the scene, one on the left side and another on the right side of the image.";
+Q_86: "Why are the boys wearing hard plastic helmets?";
+A_86:{
+A_86_1: "protection";
+A_86_2: "fashion";
+A_86_3: "costume";
+A_86_4: "punishment";
+}};
+
+i_87:{
+C_87: "A cute black and white kitten is sitting on a wooden floor, surrounded by several bowls filled with cat food. The kitten appears to be eating from one of the bowls, while the other bowls are scattered around the area. There are two more bowls placed further away from the kitten, indicating that there might be more cats in the vicinity. In addition to the bowls, there is a cup placed on the floor near the kitten, possibly used for water or another beverage. The overall scene showcases a cozy and welcoming environment for the cats to enjoy their meals.";
+Q_87: "What is a common brand of cat food?";
+A_87:{
+A_87_1: "rain";
+A_87_2: "ebony";
+A_87_3: "bones";
+A_87_4: "meow mix";
+}};
+
+i_88:{
+C_88: "The image depicts a scenic view of a harbor with several boats floating on the water. There are two large boats, one in the foreground and another in the background, as well as several smaller boats scattered throughout the harbor.  In addition to the boats, there are several buildings visible in the background, likely representing the cityscape surrounding the harbor. A few cars can also be seen parked near the water's edge, adding to the lively atmosphere of the scene. Overall, the image captures a bustling harbor with a mix of boats and land-based transportation.";
+Q_88: "In what country is this river in?";
+A_88:{
+A_88_1: "italy";
+A_88_2: "britain";
+A_88_3: "france";
+A_88_4: "spain";
+}};
+
+i_89:{
+C_89: "a bicycle is leaning against a wooden bench on a grassy hillside overlooking a valley. The bicycle is parked near the bench, which is positioned in the middle of the scene. There are several people visible in the background, possibly enjoying the scenic view or taking a rest on the bench. In addition to the bicycle and bench, there are several other objects scattered around the area, including a handbag, a backpack, and a bottle of water.";
+Q_89: "Why has the bike been placed near the bench?";
+A_89:{
+A_89_1: "to repair";
+A_89_2: "to dry";
+A_89_3: "to stand";
+A_89_4: "to paint";
+}};
+
+i_90:{
+C_90: "a young man is sitting at a dining table, holding a large slice of pizza in front of him. He appears to be enjoying his meal as he takes a big bite out of the pizza. The dining table is positioned in the center of the scene, surrounded by chairs. There are two chairs on either side of the table, with one closer to the man and the other further away. In addition to the chairs, there is a bowl placed on the table, possibly used for condiments or other accompaniments to the pizza.";
+Q_90: "What type of diet does the person shown have?";
+A_90:{
+A_90_1: "atkins";
+A_90_2: "omnivorous";
+A_90_3: "vegan";
+A_90_4: "vegetarian";
+}};
+
+i_91:{
+C_91: "there is a city street at night with a building on the left side of the image. The building has a sign that reads "Sanders" on its facade. There are several cars parked along the street, some closer to the building and others further away. A traffic light can be seen in the middle of the street, indicating the presence of pedestrians and vehicles passing by. Additionally, there are several traffic cones placed around the area, possibly for construction or maintenance purposes. Overall, the scene depicts a bustling city street at night with various vehicles and pedestrians moving about.";
+Q_91: "What might come from the right or left at any time?";
+A_91:{
+A_91_1: "lava";
+A_91_2: "train";
+A_91_3: "tank";
+A_91_4: "car";
+}};
+
+i_92:{
+C_92: "A mother is helping her son put on his tie. She is standing next to him, looking at his neck and adjusting his tie. The son is wearing a white shirt and glasses, while the mother is also wearing glasses.  There are two chairs in the room, one on the left side of the image and the other on the right side. Both chairs are positioned close to the mother and son, indicating that they might be preparing for an event or a special occasion.";
+Q_92: "What color is the collar worn on the shirt with the man having his tie tied?";
+A_92:{
+A_92_1: "green";
+A_92_2: "black";
+A_92_3: "white";
+A_92_4: "blue";
+}};
+
+i_93:{
+C_93: "There is a large sculpture in the center of the image, which resembles a bird with its wings spread out. The sculpture is made of metal and appears to be suspended in the air, as if it's flying. A group of people can be seen standing near the sculpture, likely admiring its unique design.  In the background, there is a building with a clock on its facade, adding a sense of time to the scene. Additionally, there are several benches placed around the area, providing seating for those who want to take a break and enjoy the surroundings.";
+Q_93: "The human-shaped decorations are made of what material?";
+A_93:{
+A_93_1: "metal";
+A_93_2: "wood";
+A_93_3: "cement";
+A_93_4: "plastic";
+}};
+
+i_94:{
+C_94: "there is a young girl standing in front of a blue and silver high-speed train at a train station. She is wearing a brown jacket and appears to be waiting for the next train to arrive. The train is parked on the platform, and there are several other people nearby, possibly waiting for their own transportation or observing the scene. In the background, there are two more trains visible, one closer to the girl and the other further away. A few handbags can be seen scattered around the scene, possibly belonging to some of the people waiting at the station. Overall, the image captures a moment of excitement and anticipation as the young girl prepares to board the high-speed train.";
+Q_94: "What location is the train parked in?";
+A_94:{
+A_94_1: "train depot";
+A_94_2: "desert";
+A_94_3: "horse stop";
+A_94_4: "taxi station";
+}};
+
+i_95:{
+C_95: "a woman is washing a sheep with a hose in an outdoor setting. She is standing next to the sheep, holding the hose and spraying it onto the animal's body. There are several chairs scattered around the area, possibly for people to sit and watch the sheep being washed. In addition to the woman and the sheep, there are two other people visible in the scene, one on the left side of the image and the other on the right side. They may be observing the sheep washing process or simply enjoying the outdoor atmosphere.";
+Q_95: "Why is the woman hosing the animal off?";
+A_95:{
+A_95_1: "it's cold";
+A_95_2: "it's thirsty";
+A_95_3: "it's hot";
+A_95_4: "it's dirty";
+}};
+
+i_96:{
+C_96: "a group of people are gathered around a picnic table, enjoying a meal together. The table is filled with various food items, including sandwiches, fruits, and desserts. There are also several bottles placed on the table, likely containing drinks. In addition to the food and drinks, there are several backpacks scattered around the area, possibly belonging to the picnickers. Some of the backpacks are closer to the picnic table, while others are positioned further away. Overall, it appears to be a relaxing and enjoyable outdoor gathering.";
+Q_96: "California is the largest producer of which fruit?";
+A_96:{
+A_96_1: "apple";
+A_96_2: "berries";
+A_96_3: "grapes";
+A_96_4: "avocados";
+}};
+
+i_97:{
+C_97: "the bedroom is well-appointed, with a large bed taking up most of the space in the room. The bed is adorned with a colorful floral comforter and pillows, creating a cozy and inviting atmosphere. There are two chairs placed near the bed, one on the left side and the other on the right side. In addition to the chairs, there are two bottles visible in the room. One bottle is located on the left side of the bed, while the other is situated on the right side. A backpack can also be seen on the left side of the bed, possibly belonging to someone staying in the room. Overall, the bedroom appears to be well-furnished and ready for guests to relax and enjoy their stay.";
+Q_97: "What fruit is the same colour as the roundish flower on the cover?";
+A_97:{
+A_97_1: "apple";
+A_97_2: "plum";
+A_97_3: "orange";
+A_97_4: "damson";
+}};
+
+i_98:{
+C_98: "A young girl is standing in front of a fenced-in sheep, reaching out to pet the animal. She is wearing a black dress and appears to be enjoying the interaction with the sheep. There are several other people in the scene, including a man on the left side of the image, a woman on the right side, and another man further away from the main group. In addition to the people, there is a handbag placed on the ground near the sheep's enclosure. Overall, the scene captures a fun and interactive moment between the young girl and the sheep.";
+Q_98: "What has peaked the interest of the little girl?";
+A_98:{
+A_98_1: "sheep";
+A_98_2: "mother";
+A_98_3: "cage";
+A_98_4: "puddle";
+}};
+
+i_99:{
+C_99: "a woman is taking a selfie with a cell phone in her hand. She is surrounded by other people, some of whom are also holding their phones or cameras. The scene appears to be a social gathering where people are capturing memories and enjoying each other's company.  In the background, there is a car parked on the left side of the image, possibly belonging to one of the people attending the event. Overall, the image showcases a group of people engaging in various activities, including taking selfies and capturing memories together.";
+Q_99: "Whats the womans skin color?";
+A_99:{
+A_99_1: "grey";
+A_99_2: "white";
+A_99_3: "black";
+A_99_4: "brown";
+}};
+
+i_100:{
+C_100: "A vintage black and white photograph captures a woman swinging a baseball bat during a game. The woman is focused on hitting the ball as she stands on a dirt field, surrounded by a crowd of spectators. There are several people scattered throughout the scene, some closer to the action while others are further away.  In the background, there are two benches, one on the left side and the other on the right side of the field. These benches provide seating for the spectators, allowing them to watch the game from a comfortable distance. Overall, the image conveys a sense of excitement and engagement as the woman prepares to hit the ball.";
+Q_100: "What sport are these women most likely playing?";
+A_100:{
+A_100_1: "tennis";
+A_100_2: "softball";
+A_100_3: "lacrosse";
+A_100_4: "croquet";
+}};
+

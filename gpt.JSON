@@ -171,33 +171,30 @@
 },
 {
   "instance": "i_18",
-  "caption": "The image features a beautiful garden with various flowers and plants. There are several flower beds in the garden, each containing a different type and color of flowers. Some flowers are closer to each other, while others are positioned further away. In addition to the flowers, there are several trees scattered throughout the garden, providing shade and adding to the overall beauty of the scene. There is also a small pond with water lilies, adding to the tranquility of the garden. A couple of benches are placed in the garden, providing seating for visitors to relax and enjoy the surroundings.",
-  "question": "What is the main attraction in the garden?",
-  "possible_answers": ["trees", "water lilies", "benches", "flowers"],
-  "gpt_answer": "flowers",
-  "knowledge_type": "2",
-  "explanation": "The answer can be inferred from the description of the image. The image depicts a beautiful garden with various flowers and flower beds, suggesting that the 'flowers' are the main attraction in the garden."
-  
+  "caption": "There is a large group of people gathered on a grassy hill, enjoying a sunny day. They are flying a variety of colorful kites in the sky, including several octopus-shaped kites. The kites come in different sizes and designs, adding to the festive atmosphere of the gathering. Some of the kites are closer to the ground, while others are higher up in the sky, creating a vibrant and lively scene. In addition to the kites, there are several handbags scattered around the area, likely belonging to the people participating in the kite-flying event.",
+  "question": "What do the majority of the kites look like?",
+  "possible_answers": ["octopus", "cat", "bear", "skunk"],
+  "gpt_answer": "octopus",
+  "knowledge_type": "Visual - Knowledge of concepts represented visually",
+  "explanation": "Based on the visual description provided, the majority of the kites are described as 'octopus-shaped kites.' Since the caption explicitly mentions that 'several octopus-shaped kites' are included among the variety of colorful kites being flown, it is reasonable to assume that the octopus-shaped kites are the most prominent type of kites in the scene."
 },
 {
   "instance": "i_19",
-  "caption": "A group of people is sitting around a campfire in a forested area. The campfire is burning brightly, providing warmth and light to the group. Some of the people are sitting on logs, while others are on camping chairs. There is a tent set up nearby, suggesting that the group is camping in the area. In addition to the people, there are several camping equipment and gear visible, such as backpacks, cooking utensils, and a cooler. The scene captures the coziness and camaraderie of a camping trip in the great outdoors.",
-  "question": "What is being cooked on the campfire?",
-  "possible_answers": ["ice cream", "hot dogs", "watermelon", "popcorn"],
-  "gpt_answer": "hot dogs",
-  "knowledge_type": "1",
-  "explanation": "Commonsense knowledge tells us that 'hot dogs' are a popular camping food item often cooked on campfires. They are easy to prepare and a common choice for outdoor cooking, making 'hot dogs' the most likely answer."
-  
+  "caption": "There is a large red and white train parked on a train track, surrounded by trees. The train appears to be stationary, possibly waiting for its next departure. There are several people visible in the scene, some standing near the train and others further away from it. In addition to the people, there are several handbags scattered throughout the scene, likely belonging to the individuals present. A truck can also be seen in the background, parked on the side of the train track. Overall, the scene depicts a busy train station with people and vehicles in the vicinity.",
+  "question": "These walls have a similar color scheme to what place?",
+  "possible_answers": ["nathan's", "arthur treacher's", "popeye's", "kfc"],
+  "gpt_answer": "kfc",
+  "knowledge_type": "Visual - Knowledge of concepts represented visually",
+  "explanation": "The caption mentions a large red and white train parked on a train track. This color scheme (red and white) is a common association with the fast-food chain 'KFC,' which uses red and white in its branding and logo. Therefore, the walls in the scene have a color scheme similar to 'KFC.'"
 },
 {
   "instance": "i_20",
-  "caption": "The image depicts a group of people dressed in traditional clothing, participating in a cultural parade. The participants are wearing colorful costumes and accessories, representing the vibrant cultural heritage of their community. Some of the participants are carrying banners and flags, adding to the festive atmosphere of the parade. There are several onlookers and spectators watching the parade from the sidewalks, enjoying the visual spectacle of the cultural event. The scene captures the celebration of diversity and cultural pride.",
-  "question": "What is the theme of the parade?",
-  "possible_answers": ["sports", "diversity", "technology", "space"],
-  "gpt_answer": "diversity",
-  "knowledge_type": "2",
-  "explanation": "The answer can be inferred from the description of the image. The description mentions a group of people dressed in traditional clothing, representing the cultural heritage of their community. The presence of onlookers and spectators enjoying the visual spectacle of the cultural event suggests that the theme of the parade is likely related to 'diversity,' celebrating the various cultures represented by the participants."
-  
+  "caption": "There is a group of people skiing on a snowy slope, with a mountain in the background. The skiers are spread out across the slope, some closer to the mountain while others are further away. A ski lift can be seen in the distance, providing transportation for the skiers up the mountain. In addition to the skiers, there are several backpacks scattered throughout the scene, likely belonging to the skiers as they prepare for their day on the slopes.",
+  "question": "What movie would this setting fit?",
+  "possible_answers": ["cliffhanger", "phone booth", "blade", "dumbo"],
+  "gpt_answer": "cliffhanger",
+  "knowledge_type": "Visual - Knowledge of concepts represented visually",
+  "explanation": "The scene described with people skiing on a snowy slope, a mountain in the background, and a ski lift providing transportation is a common setting for the action/adventure movie 'Cliffhanger,' starring Sylvester Stallone. The description aligns with the typical setting of the film, making 'Cliffhanger' the most likely movie that fits this scene."
 },
 {
   "instance": "i_21",
@@ -391,12 +388,12 @@
 
 {
   "instance": "i_40",
-  "caption": "A group of friends is sitting around a campfire in the woods, enjoying a camping trip. They are seated on camping chairs, with the campfire burning brightly in the center. Some of the friends are roasting marshmallows over the fire, while others are engaged in conversation. The surrounding woods are filled with tall trees, creating a serene and peaceful environment for the camping experience. In addition to the campfire, there are several tents set up in the background, indicating that the friends are camping overnight in the area.",
-  "question": "What is the group of friends doing?",
-  "possible_answers": ["fishing", "skiing", "camping", "shopping"],
-  "gpt_answer": "camping",
+  "caption": "There is a group of people riding on an elephant through a lush, green forest. The elephant is surrounded by trees and foliage, creating a serene and peaceful environment for the riders. There are two people sitting on the elephant's back, one on the left side and the other on the right side. They appear to be enjoying the ride as they take in the sights and sounds of their surroundings. In the background, there are various trees and bushes scattered throughout the forest, adding to the natural beauty of the scene.",
+  "question": "What is near the elephant?",
+  "possible_answers": ["dog", "cow", "people", "cat"],
+  "gpt_answer": "people",
   "knowledge_type": "1",
-  "explanation": "The description of friends sitting around a campfire in the woods and roasting marshmallows strongly suggests that the group of friends is camping. Camping involves staying outdoors, typically in tents or other shelters, and engaging in activities such as cooking over a campfire, which is a part of common knowledge (commonsense)."
+  "explanation": "Based on commonsense knowledge, it is likely that the answer 'people' is correct. The caption describes a group of people riding on the elephant's back, indicating their close proximity to the elephant."
 },
 
 {
@@ -571,32 +568,32 @@
 
 {
   "instance": "i_58",
-  "caption": "The image features a bowl of fresh strawberries on a wooden table. The strawberries are arranged in a visually appealing manner, and their vibrant red color contrasts with the light color of the wooden table. The bowl appears to be full of strawberries, making it an inviting and delicious snack option. The image captures the freshness and natural beauty of the strawberries, making them even more enticing to potential eaters.",
-  "question": "What color is the bowl?",
-  "possible_answers": ["blue", "green", "red", "yellow"],
-  "gpt_answer": "unknown",
+  "caption": "The image depicts an old-fashioned bathroom with a clawfoot bathtub in the center of the room. The bathtub is surrounded by a purple couch, which appears to be the focal point of the space. There are two chairs placed near the couch, one on the left and another on the right side of the room. A clock can be seen hanging on the wall above the bathtub, adding a touch of elegance to the setting. In addition to the furniture, there are several objects scattered around the room, including a bowl, a cup, and a bottle. The overall atmosphere of the room is cozy and inviting, with a mix of vintage and modern elements.",
+  "question": "Why is the floor tiled?",
+  "possible_answers": ["sun", "look", "water", "feel"],
+  "gpt_answer": "water",
   "knowledge_type": "2",
-  "explanation": "The description of the image does not include any information about the color of the bowl. Therefore, I cannot provide a definitive answer based on the information given."
+  "explanation": "Based on visual knowledge, the presence of a bathtub in the center of the room and other objects like a bowl, cup, and bottle scattered around suggests that the room is a bathroom. Bathrooms typically have tiled floors to make them easier to clean, especially in areas where water is commonly used. Therefore, the most likely reason for the floor to be tiled is to handle water spills and maintain cleanliness."
 },
 
 {
   "instance": "i_59",
-  "caption": "A woman is sitting at a desk in a modern office. She is working on a computer, and there are multiple documents and papers scattered on the desk. The office is well-lit, with large windows providing natural light. There is a potted plant on the desk, adding a touch of greenery to the workspace. In addition to the woman and the computer, there is a chair on the other side of the desk, likely for visitors or colleagues. The overall atmosphere of the office is professional and productive, providing an ideal environment for work.",
-  "question": "What object provides greenery?",
-  "possible_answers": ["lamp", "computer", "chair", "potted plant"],
-  "gpt_answer": "potted plant",
-  "knowledge_type": "2",
-  "explanation": "The description of a potted plant on the desk provides the greenery in the modern office. Potted plants are often used as decorative elements in offices to add a touch of nature and create a more pleasant and calming work environment."
+  "caption": "There is a wooden bench placed on the sidewalk of a city street. The bench is positioned in the middle of the sidewalk, providing a comfortable seating area for people to rest and take a break from their daily activities. There are several people visible in the scene, some standing near the bench and others walking along the sidewalk. One person is closer to the bench, while others are further away. A few handbags can be seen scattered around the area, possibly belonging to some of the people passing by. Overall, it appears to be a peaceful and inviting spot for people to relax and enjoy their surroundings.",
+  "question": "This bench is located where?",
+  "possible_answers": ["ocean front", "city sidewalk", "mall", "park"],
+  "gpt_answer": "city sidewalk",
+  "knowledge_type": "1",
+  "explanation": "Based on commonsense knowledge, the presence of people walking along the sidewalk, handbags scattered around the area, and the bench being in the middle of the sidewalk suggests that the bench is located on a city sidewalk. City sidewalks are common public spaces where people can rest and enjoy the surroundings."
 },
 
 {
   "instance": "i_60",
-  "caption": "A woman is standing on a hiking trail, surrounded by tall trees and lush greenery. She is wearing a backpack and hiking boots, indicating that she is prepared for an outdoor adventure. The trail appears to be well-marked and well-maintained, making it an enjoyable and safe hiking experience. The woman is looking ahead, possibly planning her route or admiring the natural beauty of the surroundings. The scene captures the serenity and tranquility of nature, making it an attractive destination for hikers and nature enthusiasts.",
-  "question": "What activity is this person doing?",
-  "possible_answers": ["swimming", "cooking", "hiking", "dancing"],
-  "gpt_answer": "hiking",
-  "knowledge_type": "1",
-  "explanation": "The description of a woman standing on a hiking trail, wearing a backpack and hiking boots, and surrounded by tall trees and lush greenery indicates that she is most likely engaging in the activity of hiking."
+  "caption": "A group of people is gathered around an animal that has been slaughtered on the sidewalk. The animal appears to be a sheep or goat, and it is lying on the ground with its blood spilling out. There are several people standing around the animal, observing the scene and possibly participating in the slaughtering process. Some of the people are closer to the animal, while others are positioned further away. A chair can be seen in the background, possibly belonging to one of the spectators. In addition to the people, there are several chairs scattered around the area, providing seating for those who have come to witness the event.",
+  "question": "Which culture has this custom?",
+  "possible_answers": ["Scotland", "Iraq", "India", "Iran"],
+  "gpt_answer": "Iraq",
+  "knowledge_type": "3",
+  "explanation": "The presence of people participating in the slaughtering process and chairs set up for spectators suggests that this event is likely a religious or cultural custom. Among the given options, Iraq is known to have cultural and religious customs that involve public animal slaughtering during specific occasions and festivals. Therefore, the most likely culture associated with this custom is Iraq, based on knowledge from cultural and textual sources (knowledge type 3)."
 },
 
 {

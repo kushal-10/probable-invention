@@ -981,22 +981,22 @@
 
 {
   "instance": "i_99",
-  "caption": "A woman is sitting on a rock at the edge of a beautiful waterfall. The waterfall cascades down from a rocky cliff, creating a picturesque scene of nature's beauty. The woman is wearing a red jacket and appears to be enjoying the serene atmosphere. In the background, there are several trees and lush vegetation, adding to the natural beauty of the surroundings. The water from the waterfall flows into a clear pool below, offering a refreshing spot for visitors to take a dip or admire the view.",
-  "question": "What might visitors do in the clear pool?",
-  "possible_answers": ["swim", "play hockey", "drink", "sleep"],
-  "gpt_answer": "swim",
-  "knowledge_type": "1",
-  "explanation": "The image describes a woman sitting near a waterfall with water flowing into a clear pool below. Since it's a clear pool of water, the most likely activity for visitors to do there is to 'swim.'"
+  "caption": "a woman is taking a selfie with a cell phone in her hand. She is surrounded by other people, some of whom are also holding their phones or cameras. The scene appears to be a social gathering where people are capturing memories and enjoying each other's company. In the background, there is a car parked on the left side of the image, possibly belonging to one of the people attending the event. Overall, the image showcases a group of people engaging in various activities, including taking selfies and capturing memories together.",
+  "question": "Whats the woman's skin color?",
+  "possible_answers": ["grey", "white", "black", "brown"],
+  "gpt_answer": "white",
+  "knowledge_type": "Visual (2)",
+  "explanation": "The answer 'white' is the most likely because the photograph was taken with a cell phone in hand, and the presence of a car indicates a contemporary social gathering. In many parts of the world, cell phones are widely used, and social gatherings with people taking selfies often consist of diverse groups of individuals. Considering the context, the most common skin color depicted in such scenarios is 'white'."
 },
 
 {
   "instance": "i_100",
-  "caption": "A man is sitting on a bench in a park, feeding pigeons that have gathered around him. He is holding a bag of birdseed, and the pigeons are perched on the bench and the ground, eagerly pecking at the food. The man appears to be enjoying the company of the birds and the tranquil surroundings of the park. In the background, there are several trees and greenery, contributing to the peaceful ambiance of the scene. The pigeons' presence adds a sense of harmony between humans and nature in the urban setting.",
-  "question": "What animal would the man be feeding?",
-  "possible_answers": ["dogs", "pigeons", "ducks", "squirrels"],
-  "gpt_answer": "pigeons",
-  "knowledge_type": "1",
-  "explanation": "The image describes a man sitting on a bench in a park, feeding birds with a bag of birdseed. The description of the pigeons gathering around him to peck at the food suggests that the animal the man would be feeding is 'pigeons.'"
+  "caption": "A vintage black and white photograph captures a woman swinging a baseball bat during a game. The woman is focused on hitting the ball as she stands on a dirt field, surrounded by a crowd of spectators. There are several people scattered throughout the scene, some closer to the action while others are further away. In the background, there are two benches, one on the left side and the other on the right side of the field. These benches provide seating for the spectators, allowing them to watch the game from a comfortable distance. Overall, the image conveys a sense of excitement and engagement as the woman prepares to hit the ball.",
+  "question": "What sport are these women most likely playing?",
+  "possible_answers": ["tennis", "softball", "lacrosse", "croquet"],
+  "gpt_answer": "softball",
+  "knowledge_type": "Visual (2)",
+  "explanation": "The answer 'softball' is the most likely because the description mentions a woman swinging a baseball bat during a game. The fact that the photograph is black and white and describes a dirt field and a crowd of spectators suggests a vintage or historical setting. Softball is a popular sport with similarities to baseball, and women have been actively participating in softball games for many years. Considering the context and the presence of a woman swinging a baseball bat, 'softball' is the most appropriate answer."
 }
 ]
 
